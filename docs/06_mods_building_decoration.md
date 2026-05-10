@@ -8,14 +8,16 @@ Documenter les mods liés à la construction, aux pièces de bâtiment, aux déc
 
 **En cours.**
 
-Premier pack Building & Décoration validé : **Étape 10.8 - Pack visuel / déco / building léger**.
+Premier pack Building & Décoration testé : **Étape 10.8 - Pack visuel / déco / building léger**.
+
+Attention : **Lisas Building Stone Age est suspendu temporairement** après apparition d'une erreur de parsing du fichier `.pak`.
 
 ## Critères de sélection
 
 Les mods de cette catégorie devront :
 
 - être compatibles Conan Exiles Enhanced / UE5 ;
-- ne pas provoquer d'instabilité en host local ;
+- ne pas provoquer d'instabilité en host local / mode Coop ;
 - éviter les empilements massifs de dépendances ;
 - apporter un vrai intérêt en construction ou décoration ;
 - rester raisonnables pour un groupe de 3 à 4 joueurs.
@@ -38,7 +40,7 @@ Les mods de cette catégorie devront :
 
 - Abonnement Steam Workshop effectué.
 - Mod activé depuis le menu Mods en jeu.
-- Test réalisé en host local solo dans le pack 10.8.
+- Test réalisé dans le pack 10.8.
 - Fonctionnement validé ingame.
 
 ---
@@ -55,7 +57,7 @@ Les mods de cette catégorie devront :
 
 - Abonnement Steam Workshop effectué.
 - Mod activé depuis le menu Mods en jeu.
-- Test réalisé en host local solo dans le pack 10.8.
+- Test réalisé dans le pack 10.8.
 - Fonctionnement validé ingame.
 
 ---
@@ -72,11 +74,11 @@ Les mods de cette catégorie devront :
 
 - Abonnement Steam Workshop effectué.
 - Mod activé depuis le menu Mods en jeu.
-- Test réalisé en host local solo dans le pack 10.8.
+- Test réalisé dans le pack 10.8.
 - Objets de décoration visibles / testés.
 - Fonctionnement validé ingame.
 
----
+## Mods suspendus, rejetés ou différés
 
 ### Lisas Building Stone Age
 
@@ -84,17 +86,40 @@ Les mods de cette catégorie devront :
 - Source : Steam Workshop.
 - Workshop ID : `3723560519`.
 - Lien : https://steamcommunity.com/sharedfiles/filedetails/?id=3723560519
-- Statut : **validé en jeu**.
+- Statut : **suspendu temporairement**.
 
-#### Résultat du test
+#### Historique
 
-- Abonnement Steam Workshop effectué.
-- Mod activé depuis le menu Mods en jeu.
-- Test réalisé en host local solo dans le pack 10.8.
-- Pièces de construction visibles et testées.
-- Build validé ingame.
+Le mod avait été validé une première fois en jeu :
 
-## Mods rejetés ou différés
+- pièces de construction visibles ;
+- builds testés ;
+- fonctionnement initial OK.
+
+Cependant, lors d'un lancement ultérieur, Conan Exiles Enhanced a affiché une erreur :
+
+```text
+Corrupted Mods Detected
+failed to parse mod info
+Lisas_Building_Stone_Age.pak
+```
+
+Après désabonnement du mod, le jeu a réinitialisé la modlist.
+
+Fabien a reconstruit et testé la base jusqu'au mod 22 : **tout est OK jusqu'au mod 22**.
+
+#### Décision
+
+Lisas Building Stone Age est retiré temporairement du load order officiel.
+
+Il pourra être retesté plus tard après :
+
+- réabonnement propre ;
+- téléchargement complet du Workshop ;
+- validation du fichier `.pak` ;
+- test isolé en mode Coop.
+
+---
 
 ### Pickup+
 
@@ -116,6 +141,8 @@ Raison : non visible via le filtre Workshop Enhanced au moment de la recherche.
 
 ## Notes de test
 
-Le pack 10.8 a été testé en host local solo.
+Le pack 10.8 a été testé une première fois avec succès.
 
-Conclusion : **test OK, builds OK**.
+Conclusion initiale : **test OK, builds OK**.
+
+Conclusion après incident : **base validée jusqu'au mod 22 sans Lisas Building Stone Age**.
