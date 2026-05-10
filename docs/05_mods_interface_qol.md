@@ -8,7 +8,10 @@ Documenter les mods liés à l'interface, au confort de jeu et à la qualité de
 
 **En cours.**
 
-Premier mod Interface & QoL validé : **Simple Minimap (by Xevyr) v5.1.1**.
+Mods Interface & QoL actuellement validés :
+
+1. **Simple Minimap (by Xevyr) v5.1.1**.
+2. **Stacksize Plus v2.0.0-enhanced**.
 
 ## Critères de sélection
 
@@ -33,7 +36,7 @@ Les mods de cette catégorie devront :
 - Type : minimap légère et autonome.
 - Statut : **validé en jeu**.
 
-### Résultat du test
+#### Résultat du test
 
 - Abonnement Steam Workshop effectué.
 - Le fichier `.pak` est bien présent dans le dossier Workshop Steam :
@@ -47,11 +50,54 @@ C:\JEUX\STEAM\steamapps\workshop\content\440900\3719513784
 - Le mod a été activé depuis le menu Mods en jeu.
 - La minimap fonctionne correctement ingame.
 
-### Conclusion
+#### Conclusion
 
 **Simple Minimap est validé comme premier mod du bloc Interface & QoL.**
 
 Note importante : pour Conan Exiles Enhanced / UE5, le launcher Funcom peut ne pas afficher certains mods Workshop alors qu'ils apparaissent correctement dans le menu Mods du jeu. Pour la suite du projet, le menu Mods en jeu devient la référence principale de vérification.
+
+---
+
+### Stacksize Plus v2.0.0-enhanced
+
+- Catégorie : Interface & QoL / confort inventaire.
+- Source : Steam Workshop.
+- Workshop ID : `3720915336`.
+- Type : augmentation configurable de la taille des piles d'objets.
+- Statut : **validé en jeu**.
+
+#### Résultat du test
+
+- Abonnement Steam Workshop effectué.
+- Mod activé depuis le menu Mods en jeu.
+- Test réalisé en host local solo.
+- Configuration testée via un objet avec inventaire / menu radial.
+- Utilisation du panneau administrateur acceptée pour accélérer les tests.
+- Le mod fonctionne correctement ingame.
+
+#### Note de configuration
+
+Le réglage de Stacksize Plus ne se fait pas depuis le panneau administrateur classique.
+
+Méthode retenue :
+
+1. passer administrateur si nécessaire ;
+2. poser un objet avec inventaire, par exemple un coffre ou une station de craft ;
+3. ouvrir le menu radial sur cet objet ;
+4. accéder aux réglages du mod ;
+5. définir un multiplicateur raisonnable.
+
+Réglage conseillé pour le modpack :
+
+```text
+x5 au départ
+```
+
+Ce réglage apporte du confort sans transformer les joueurs en semi-remorques hyboriens.
+
+#### Conclusion
+
+**Stacksize Plus est validé comme second mod du bloc Interface & QoL.**
 
 ## Mods rejetés ou différés
 
@@ -59,7 +105,7 @@ Note importante : pour Conan Exiles Enhanced / UE5, le launcher Funcom peut ne p
 
 ## Notes de test
 
-### Règle découverte pendant le test
+### Règle découverte pendant le test Simple Minimap
 
 Le launcher Funcom n'est pas toujours fiable pour vérifier la présence des mods Workshop.
 
@@ -74,3 +120,9 @@ Méthode retenue :
 7. tester en host local solo.
 
 Cette règle devra être prise en compte dans la procédure d'installation joueurs.
+
+### Règle de test
+
+Pour les tests du modpack, l'utilisation du panneau administrateur est autorisée afin d'accélérer la validation des fonctionnalités.
+
+Le but est de tester la stabilité et le fonctionnement des mods, pas de jouer normalement pendant la phase de construction du modpack.
