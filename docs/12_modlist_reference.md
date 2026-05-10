@@ -74,6 +74,9 @@ Cette logique pourra être ajustée selon les recommandations propres à certain
 | 24 | Enhanced Gliders | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720667122) | `3720667122` | Gameplay léger / Mobilité | Validé | Planeurs / options selon le fonctionnement du mod. | Validé en mode Coop dans le pack 10.11. |
 | 25 | LegitReligious [Enhanced] | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720748663) | `3720748663` | Gameplay léger / Religion | Validé | Effets / recettes / religions selon le mod. | Stable en test Coop, à surveiller en usage prolongé. |
 | 26 | Diverse Barkeeps | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722887659) | `3722887659` | Ambiance NPC / Barkeeps | Validé | Fonctionnement passif / variations NPC selon le mod. | Validé en mode Coop dans le pack 10.11. |
+| 27 | [Enhanced] Craftable Legendaries | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721054666) | `3721054666` | Craft / Progression / Équipement légendaire | Validé | Recettes / craft légendaire selon le mod. | Stable et fluide en test Coop, à surveiller côté équilibrage. |
+| 28 | Sorcery Tweaks Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723524908) | `3723524908` | Sorcellerie / Gameplay léger | Validé | Ajustements sorcellerie selon le mod. | Validé en mode Coop dans le pack 10.12. |
+| 29 | [Enhanced] Dark Decention Cooking and Brewing | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721764383) | `3721764383` | Cuisine / Brassage / Recettes | Validé | Recettes cuisine / brassage selon le mod. | Stable et fluide en test Coop, aucune erreur. |
 
 ## Mods rejetés définitivement
 
@@ -85,7 +88,7 @@ Cette logique pourra être ajustée selon les recommandations propres à certain
 
 À ce stade, le fichier `modlist.txt` devra refléter l'ordre officiel ci-dessus.
 
-La base actuelle validée contient **26 mods actifs**.
+La base actuelle validée contient **29 mods actifs**.
 
 La forme exacte du fichier sera documentée lorsque la liste commencera à se stabiliser.
 
@@ -150,4 +153,4 @@ docs/11_installation_joueurs.md
 
 ## Statut
 
-Document mis à jour avec les vingt-six mods actifs actuellement validés.
+Document mis à jour avec les vingt-neuf mods actifs actuellement validés.
