@@ -87,6 +87,12 @@ Cette logique pourra être ajustée selon les recommandations propres à certain
 |---|---|---|---|---:|---|---|
 | Lisas Building Stone Age | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723560519) | `3723560519` | 16 | Rejeté | Mod affiché comme `<corrupted - Lisas_Building_Stone_Age.pak>`, erreur `failed to parse mod info`, version bêta instable récemment mise à jour. |
 
+## Mods rejetés / différés après test
+
+| Mod | Source | Lien | ID / Référence | Ancien ordre | Statut | Raison |
+|---|---|---|---|---:|---|---|
+| The Compendium of Crawling Chaos Enhanced Edition | Steam Workshop | À compléter | À compléter | 29 provisoire | Rejeté / différé | Test isolé après la base stable de 32 mods : freeze complet du PC, clavier inopérant, `CTRL + ALT + SUPPR` sans réponse, reset physique nécessaire. Retrait confirmé, retour stabilité OK. |
+
 ## modlist.txt de référence
 
 À ce stade, le fichier `modlist.txt` devra refléter l'ordre officiel ci-dessus.
@@ -167,4 +173,4 @@ docs/11_installation_joueurs.md
 
 ## Statut
 
-Document mis à jour avec les trente-deux mods actifs actuellement validés.
+Document mis à jour avec les trente-deux mods actifs actuellement validés, et les rejets/différés connus après test.
