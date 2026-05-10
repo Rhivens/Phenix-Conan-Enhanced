@@ -15,6 +15,8 @@ Mods Interface & QoL actuellement validés :
 3. **Lore & Loot Highlight v1.0.0 by Xevyr**.
 4. **Twin-Bar v5.0.4 by Xevyr**.
 5. **Simple Modlist v5.0.1 by Xevyr**.
+6. **Inventory Compactor v5.0.1 by Xevyr**.
+7. **Unlock Plus v2.0.1-enhanced**.
 
 ## Critères de sélection
 
@@ -180,6 +182,54 @@ Ce mod est utile pour :
 #### Conclusion
 
 **Simple Modlist est validé comme cinquième mod du bloc Interface & QoL.**
+
+---
+
+### Inventory Compactor v5.0.1 by Xevyr
+
+- Catégorie : Interface & QoL / inventaire.
+- Source : Steam Workshop.
+- Workshop ID : `3718614759`.
+- Type : compactage d'inventaire, restack et rangement des espaces vides.
+- Statut : **validé en jeu**.
+
+#### Résultat du test
+
+- Abonnement Steam Workshop effectué.
+- Mod activé depuis le menu Mods en jeu.
+- Test réalisé en host local solo dans le pack QoL avancé 10.6.
+- Fonctionnement validé ingame.
+
+#### Conclusion
+
+**Inventory Compactor est validé comme sixième mod du bloc Interface & QoL.**
+
+---
+
+### Unlock Plus v2.0.1-enhanced
+
+- Catégorie : Interface & QoL / inventaire / stockage.
+- Source : Steam Workshop.
+- Workshop ID : `3720948133`.
+- Type : gestion avancée des ressources, transferts, stockage et options d'inventaire.
+- Statut : **validé en jeu**.
+
+#### Résultat du test
+
+- Abonnement Steam Workshop effectué.
+- Mod activé depuis le menu Mods en jeu.
+- Test réalisé en host local solo dans le pack QoL avancé 10.6.
+- Fonctionnement validé ingame.
+
+#### Note de prudence
+
+Unlock Plus est plus structurant que les petits mods d'interface, car il touche aux flux de ressources et de stockage.
+
+Il est validé, mais devra être surveillé lors des futurs tests multijoueur.
+
+#### Conclusion
+
+**Unlock Plus est validé comme septième mod du bloc Interface & QoL.**
 
 ## Mods rejetés ou différés
 
