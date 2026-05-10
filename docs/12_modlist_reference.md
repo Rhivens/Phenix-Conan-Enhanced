@@ -60,6 +60,10 @@ Cette logique pourra être ajustée selon les recommandations propres à certain
 | 10 | Follower Remote v5.0.3 by Xevyr | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718523921) | `3718523921` | Gameplay / Thralls / Compagnons | Validé | Console : `dc frsettings` ou interface de réglages Xevyr disponible. | Gestion à distance du comportement des followers et thralls. |
 | 11 | Xevyr's Hearthstone v5.0.0 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719642461) | `3719642461` | Gameplay léger / Mobilité | Validé | Cooldown admin : `dc hscooldown x`. | Pierre de retour liée au lit, confort coop à surveiller selon l'équilibre souhaité. |
 | 12 | Primal Instinct | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723050568) | `3723050568` | NSFW / Contenu adulte | Validé | Fonctionnement et accès aux options identifiés après prise en main en jeu. | Premier mod NSFW validé. Nudité totale activée par défaut dans le cadre du modpack. |
+| 13 | Panda's Bloody Mess | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723576515) | `3723576515` | Visuel / Ambiance gore | Validé | Pas de réglage spécifique identifié pour le moment. | Validé dans le pack 10.8. |
+| 14 | More Clan Emblems Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723546665) | `3723546665` | Clan / Emblèmes / Personnalisation | Validé | Via les options de clan / emblèmes du jeu. | Validé dans le pack 10.8. |
+| 15 | SH - Decorations v1.0.0 (Enhanced) | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723606644) | `3723606644` | Décoration / Placeables | Validé | Objets déco craftables / spawnables selon le mod. | Objets déco testés ingame. |
+| 16 | Lisas Building Stone Age | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723560519) | `3723560519` | Building / Construction | Validé | Pièces de construction via le système de build. | Builds testés et validés ingame. |
 
 ## modlist.txt de référence
 
@@ -122,4 +126,4 @@ docs/11_installation_joueurs.md
 
 ## Statut
 
-Document mis à jour avec les douze premiers mods validés, dont le premier mod NSFW.
+Document mis à jour avec les seize premiers mods validés, dont le premier mod NSFW et le premier pack Building & Décoration.
