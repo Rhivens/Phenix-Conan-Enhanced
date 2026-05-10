@@ -48,6 +48,7 @@ C'est le meilleur point d'entrée pour suivre l'évolution du modpack : dernièr
 ## Liens utiles
 
 - **[Guide d'installation joueurs](docs/11_installation_joueurs.md)**
+- **[Modlist de référence et load order](docs/12_modlist_reference.md)**
 - **[Résumé de l'état actuel](docs/00_resume_etat_actuel.md)**
 - **[Procédure principale / architecture du modpack](docs/04_architecture_modpack.md)**
 - **[Préparation de la base vanilla](docs/01_preparation_base_vanilla.md)**
