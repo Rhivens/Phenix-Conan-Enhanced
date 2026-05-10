@@ -17,6 +17,7 @@ Mods Interface & QoL actuellement validés :
 5. **Simple Modlist v5.0.1 by Xevyr**.
 6. **Inventory Compactor v5.0.1 by Xevyr**.
 7. **Unlock Plus v2.0.1-enhanced**.
+8. **Organizer Sorting Chest v1.0.0**.
 
 ## Critères de sélection
 
@@ -25,7 +26,7 @@ Les mods de cette catégorie devront :
 - être compatibles Conan Exiles Enhanced / UE5 ;
 - améliorer le confort sans alourdir inutilement le jeu ;
 - éviter les conflits avec les systèmes principaux ;
-- être testés rapidement en solo puis, si possible, en host local.
+- être testés directement en mode Coop / host local quand possible.
 
 ## Mods candidats
 
@@ -75,7 +76,6 @@ Note importante : pour Conan Exiles Enhanced / UE5, le launcher Funcom peut ne p
 
 - Abonnement Steam Workshop effectué.
 - Mod activé depuis le menu Mods en jeu.
-- Test réalisé en host local solo.
 - Configuration testée via un objet avec inventaire / menu radial.
 - Utilisation du panneau administrateur acceptée pour accélérer les tests.
 - Le mod fonctionne correctement ingame.
@@ -118,7 +118,7 @@ Ce réglage apporte du confort sans transformer les joueurs en semi-remorques hy
 
 - Abonnement Steam Workshop effectué.
 - Mod activé depuis le menu Mods en jeu.
-- Test réalisé en host local solo dans un mini-lot QoL avec Twin-Bar.
+- Test réalisé dans un mini-lot QoL avec Twin-Bar.
 - Fonctionnement validé ingame.
 
 #### Conclusion
@@ -139,7 +139,7 @@ Ce réglage apporte du confort sans transformer les joueurs en semi-remorques hy
 
 - Abonnement Steam Workshop effectué.
 - Mod activé depuis le menu Mods en jeu.
-- Test réalisé en host local solo dans un mini-lot QoL avec Lore & Loot Highlight.
+- Test réalisé dans un mini-lot QoL avec Lore & Loot Highlight.
 - Fonctionnement validé ingame.
 
 #### Note d'utilisation
@@ -166,7 +166,6 @@ Le mod fonctionne correctement après réglage / prise en main en jeu.
 
 - Abonnement Steam Workshop effectué.
 - Mod activé depuis le menu Mods en jeu.
-- Test réalisé en host local solo.
 - Fonctionnement validé ingame.
 
 #### Intérêt pour le modpack
@@ -197,7 +196,7 @@ Ce mod est utile pour :
 
 - Abonnement Steam Workshop effectué.
 - Mod activé depuis le menu Mods en jeu.
-- Test réalisé en host local solo dans le pack QoL avancé 10.6.
+- Test réalisé dans le pack QoL avancé 10.6.
 - Fonctionnement validé ingame.
 
 #### Conclusion
@@ -218,7 +217,7 @@ Ce mod est utile pour :
 
 - Abonnement Steam Workshop effectué.
 - Mod activé depuis le menu Mods en jeu.
-- Test réalisé en host local solo dans le pack QoL avancé 10.6.
+- Test réalisé dans le pack QoL avancé 10.6.
 - Fonctionnement validé ingame.
 
 #### Note de prudence
@@ -230,6 +229,28 @@ Il est validé, mais devra être surveillé lors des futurs tests multijoueur.
 #### Conclusion
 
 **Unlock Plus est validé comme septième mod du bloc Interface & QoL.**
+
+---
+
+### Organizer Sorting Chest v1.0.0
+
+- Catégorie : Interface & QoL / stockage / tri.
+- Source : Steam Workshop.
+- Workshop ID : `3723101055`.
+- Type : coffre de tri / organisation du stockage.
+- Statut : **validé en mode Coop**.
+
+#### Résultat du test
+
+- Abonnement Steam Workshop effectué.
+- Mod activé depuis le menu Mods en jeu.
+- Test réalisé en mode Coop dans le pack 10.10.
+- Le Sorting Chest fonctionne correctement.
+- Aucun conflit apparent signalé avec Unlock Plus.
+
+#### Conclusion
+
+**Organizer Sorting Chest est validé comme huitième mod du bloc Interface & QoL.**
 
 ## Mods rejetés ou différés
 
@@ -249,7 +270,7 @@ Méthode retenue :
 4. ouvrir le menu Mods depuis le jeu ;
 5. activer le mod depuis ce menu ;
 6. redémarrer si le jeu le demande ;
-7. tester en host local solo.
+7. tester en mode Coop / host local.
 
 Cette règle devra être prise en compte dans la procédure d'installation joueurs.
 
@@ -271,3 +292,9 @@ Building / décoration : 2 à 3 mods maximum par test
 Gameplay / thralls / followers : 1 à 2 mods maximum par test
 Frameworks ou mods lourds : 1 mod à la fois
 ```
+
+### Compatibilité stockage
+
+Organizer Sorting Chest a été testé avec Unlock Plus déjà présent dans le modpack.
+
+Conclusion : **fonctionnement nickel en mode Coop**.
