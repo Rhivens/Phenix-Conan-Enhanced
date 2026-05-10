@@ -12,7 +12,8 @@ Il doit permettre à Fabien et aux joueurs de vérifier :
 - leur Workshop ID ;
 - leur catégorie ;
 - leur statut ;
-- leur ordre de chargement.
+- leur ordre de chargement ;
+- leur méthode d'accès aux réglages.
 
 ## Règle générale
 
@@ -44,12 +45,12 @@ Cette logique pourra être ajustée selon les recommandations propres à certain
 
 ## Load order officiel actuel
 
-| Ordre | Mod | Source | Lien | ID / Référence | Catégorie | Statut | Notes |
-|---:|---|---|---|---|---|---|---|
-| 1 | Simple Minimap (by Xevyr) v5.1.1 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719513784) | `3719513784` | Interface & QoL | Validé | Visible dans le menu Mods en jeu, pas forcément dans le launcher Funcom. |
-| 2 | Stacksize Plus v2.0.0-enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720915336) | `3720915336` | Interface & QoL / Inventaire | Validé | Réglage via menu radial d'un objet avec inventaire. Réglage conseillé : x5. |
-| 3 | Lore & Loot Highlight v1.0.0 by Xevyr | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718655125) | `3718655125` | Interface & QoL / Repérage visuel | Validé | Mise en évidence d'objets interactifs, lore et loot. |
-| 4 | Twin-Bar v5.0.4 by Xevyr | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719621216) | `3719621216` | Interface & QoL / Hotbar | Validé | Barre rapide avec emplacements secondaires. Fonctionnement validé en jeu. |
+| Ordre | Mod | Source | Lien | ID / Référence | Catégorie | Statut | Configuration / réglages | Notes |
+|---:|---|---|---|---|---|---|---|---|
+| 1 | Simple Minimap (by Xevyr) v5.1.1 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719513784) | `3719513784` | Interface & QoL | Validé | À vérifier en jeu dans les options du mod / paramètres disponibles. | Visible dans le menu Mods en jeu, pas forcément dans le launcher Funcom. |
+| 2 | Stacksize Plus v2.0.0-enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720915336) | `3720915336` | Interface & QoL / Inventaire | Validé | Menu radial sur un objet avec inventaire, par exemple coffre ou station de craft. Réglage conseillé : `x5`. | Ne se règle pas depuis le panneau administrateur classique. |
+| 3 | Lore & Loot Highlight v1.0.0 by Xevyr | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718655125) | `3718655125` | Interface & QoL / Repérage visuel | Validé | Console : `dc LLHSettings`. | Mise en évidence d'objets interactifs, lore et loot. |
+| 4 | Twin-Bar v5.0.4 by Xevyr | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719621216) | `3719621216` | Interface & QoL / Hotbar | Validé | Raccourcis clavier / paramètres de touches. Bascule via les raccourcis du mod. | Barre rapide avec emplacements secondaires. Fonctionnement validé en jeu. |
 
 ## modlist.txt de référence
 
@@ -64,6 +65,20 @@ La forme exacte du fichier sera documentée lorsque la liste commencera à se st
 La colonne **Lien** doit être utilisée par les joueurs pour s'abonner aux bons mods.
 
 Cette méthode limite les erreurs de recherche Steam Workshop, notamment les confusions entre versions Legacy, anciennes versions UE4 et versions Enhanced / UE5.
+
+### Configuration des mods
+
+Conan Exiles Enhanced / UE5 ne dispose pas actuellement d'une interface centrale comparable au MCM de Skyrim pour regrouper tous les réglages des mods.
+
+Chaque mod peut utiliser une méthode différente :
+
+- options en jeu ;
+- menu radial ;
+- commande console ;
+- raccourcis clavier ;
+- paramètres propres au mod.
+
+La colonne **Configuration / réglages** sert donc de référence rapide pour savoir où chercher les options de chaque mod.
 
 ### Menu Mods en jeu
 
@@ -90,4 +105,4 @@ docs/11_installation_joueurs.md
 
 ## Statut
 
-Document mis à jour avec les quatre premiers mods Interface & QoL validés.
+Document mis à jour avec les quatre premiers mods Interface & QoL validés et leur méthode d'accès aux réglages.
