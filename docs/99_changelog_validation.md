@@ -235,3 +235,26 @@ Décision :
 - Follower Remote complète le bloc Gameplay, Thralls & Animaux ;
 - Xevyr's Hearthstone est validé comme mod de confort gameplay / mobilité ;
 - Unlock Plus et les mods followers devront être surveillés lors des futurs tests multijoueur.
+
+## Étape 10.7 - NSFW : Primal Instinct
+
+Statut : **validée**.
+
+Mod : **Primal Instinct**.
+
+Résumé :
+
+- bon lien Workshop confirmé par Fabien ;
+- Workshop ID officiel retenu : `3723050568` ;
+- abonnement Steam Workshop effectué ;
+- mod activé depuis le menu Mods en jeu ;
+- test réalisé en host local solo ;
+- fonctionnement validé ingame après prise en main du mod ;
+- aucun problème bloquant signalé.
+
+Décision :
+
+- Primal Instinct est validé comme premier mod NSFW du modpack ;
+- la nudité totale reste activée par défaut dans le cadre du modpack ;
+- le mod demande une prise en main spécifique et ne se présente pas comme un simple menu de réglages classique ;
+- les futurs mods NSFW devront être testés avec prudence, idéalement un par un ou en très petit lot.
