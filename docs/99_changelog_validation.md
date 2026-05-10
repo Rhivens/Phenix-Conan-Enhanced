@@ -287,3 +287,32 @@ Décision :
 - SH - Decorations est validé comme mod de décoration ;
 - Lisas Building Stone Age est validé comme mod de building / construction ;
 - Pickup+, Less Building Placement Restrictions et LBPR Additional Features restent différés car non visibles via le filtre Workshop Enhanced au moment de la recherche.
+
+## Étape 10.9 - Pack apparence / cosmétique / NSFW léger
+
+Statut : **validée**.
+
+Mods :
+
+- **Topfreedom Enhanced** ;
+- **Tanny's WDV Tattoos und Narben - Enhanced** ;
+- **Sacred Lust armor set**.
+
+Résumé :
+
+- abonnements Steam Workshop effectués ;
+- mods activés depuis le menu Mods en jeu ;
+- test réalisé directement en mode Coop ;
+- Topfreedom Enhanced validé ingame ;
+- Tanny's WDV Tattoos und Narben - Enhanced validé ingame ;
+- Sacred Lust armor set validé ingame ;
+- aucun problème bloquant signalé.
+
+Décision :
+
+- Topfreedom Enhanced est validé comme mod cosmétique / NSFW léger ;
+- Tanny's WDV Tattoos und Narben - Enhanced est validé comme mod de tatouages / cicatrices ;
+- Sacred Lust armor set est validé comme mod d'armure / cosmétique / NSFW léger ;
+- Katis_Tattoos est rejeté / différé à cause de sa dépendance Tot Custom, non retenue pour l'objectif coop ;
+- [Enhanced] Face It est rejeté / différé à cause de sa dépendance Tot Sudo, non retenue pour conserver une base coop propre ;
+- les tests effectués directement en mode Coop deviennent la référence de validation principale du projet.
