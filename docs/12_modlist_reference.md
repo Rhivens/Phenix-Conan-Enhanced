@@ -8,6 +8,7 @@ Il doit permettre à Fabien et aux joueurs de vérifier :
 
 - les mods utilisés ;
 - leur source ;
+- leur lien direct ;
 - leur Workshop ID ;
 - leur catégorie ;
 - leur statut ;
@@ -43,10 +44,10 @@ Cette logique pourra être ajustée selon les recommandations propres à certain
 
 ## Load order officiel actuel
 
-| Ordre | Mod | Source | ID / Référence | Catégorie | Statut | Notes |
-|---:|---|---|---|---|---|---|
-| 1 | Simple Minimap (by Xevyr) v5.1.1 | Steam Workshop | `3719513784` | Interface & QoL | Validé | Visible dans le menu Mods en jeu, pas forcément dans le launcher Funcom. |
-| 2 | Stacksize Plus v2.0.0-enhanced | Steam Workshop | `3720915336` | Interface & QoL / Inventaire | Validé | Réglage via menu radial d'un objet avec inventaire. Réglage conseillé : x5. |
+| Ordre | Mod | Source | Lien | ID / Référence | Catégorie | Statut | Notes |
+|---:|---|---|---|---|---|---|---|
+| 1 | Simple Minimap (by Xevyr) v5.1.1 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719513784) | `3719513784` | Interface & QoL | Validé | Visible dans le menu Mods en jeu, pas forcément dans le launcher Funcom. |
+| 2 | Stacksize Plus v2.0.0-enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720915336) | `3720915336` | Interface & QoL / Inventaire | Validé | Réglage via menu radial d'un objet avec inventaire. Réglage conseillé : x5. |
 
 ## modlist.txt de référence
 
@@ -55,6 +56,12 @@ Cette logique pourra être ajustée selon les recommandations propres à certain
 La forme exacte du fichier sera documentée lorsque la liste commencera à se stabiliser.
 
 ## Notes importantes
+
+### Liens directs
+
+La colonne **Lien** doit être utilisée par les joueurs pour s'abonner aux bons mods.
+
+Cette méthode limite les erreurs de recherche Steam Workshop, notamment les confusions entre versions Legacy, anciennes versions UE4 et versions Enhanced / UE5.
 
 ### Menu Mods en jeu
 
