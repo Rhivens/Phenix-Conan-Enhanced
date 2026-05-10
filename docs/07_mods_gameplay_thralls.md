@@ -16,6 +16,10 @@ Mods Gameplay / Thralls actuellement validés :
 4. **Craftable Armor Scraps - Enhanced**.
 5. **TDI_LegendaryRepair [Enhanced]**.
 6. **Automatic Fish Trap v1.0.3**.
+7. **[Enhanced] Player Ignores Follower Collision**.
+8. **Enhanced Gliders**.
+9. **LegitReligious [Enhanced]**.
+10. **Diverse Barkeeps**.
 
 ## Critères de sélection
 
@@ -184,6 +188,94 @@ Le cooldown par défaut est à surveiller selon l'équilibre souhaité pour la p
 
 **Automatic Fish Trap v1.0.3 est validé pour le modpack.**
 
+---
+
+### [Enhanced] Player Ignores Follower Collision
+
+- Catégorie : gameplay léger / confort followers / qualité de vie coop.
+- Source : Steam Workshop.
+- Workshop ID : `3720753923`.
+- Type : suppression ou réduction de la gêne liée aux collisions avec les followers.
+- Statut : **validé en mode Coop**.
+
+#### Résultat du test
+
+- Abonnement Steam Workshop effectué.
+- Mod activé depuis le menu Mods en jeu.
+- Test réalisé en mode Coop dans le pack 10.11.
+- Jeu stable, aucune erreur signalée.
+
+#### Conclusion
+
+**[Enhanced] Player Ignores Follower Collision est validé pour le modpack.**
+
+---
+
+### Enhanced Gliders
+
+- Catégorie : gameplay léger / mobilité / exploration.
+- Source : Steam Workshop.
+- Workshop ID : `3720667122`.
+- Type : amélioration ou ajout lié aux planeurs.
+- Statut : **validé en mode Coop**.
+
+#### Résultat du test
+
+- Abonnement Steam Workshop effectué.
+- Mod activé depuis le menu Mods en jeu.
+- Test réalisé en mode Coop dans le pack 10.11.
+- Jeu stable, aucune erreur signalée.
+
+#### Conclusion
+
+**Enhanced Gliders est validé pour le modpack.**
+
+---
+
+### LegitReligious [Enhanced]
+
+- Catégorie : gameplay léger / religion / progression.
+- Source : Steam Workshop.
+- Workshop ID : `3720748663`.
+- Type : ajustement lié aux mécaniques religieuses.
+- Statut : **validé en mode Coop**.
+
+#### Résultat du test
+
+- Abonnement Steam Workshop effectué.
+- Mod activé depuis le menu Mods en jeu.
+- Test réalisé en mode Coop dans le pack 10.11.
+- Jeu stable, aucune erreur signalée.
+
+#### Note de prudence
+
+LegitReligious touche potentiellement à des systèmes religieux. Il est validé à ce stade, mais reste à surveiller en usage prolongé.
+
+#### Conclusion
+
+**LegitReligious [Enhanced] est validé pour le modpack.**
+
+---
+
+### Diverse Barkeeps
+
+- Catégorie : gameplay léger / ambiance NPC.
+- Source : Steam Workshop.
+- Workshop ID : `3722887659`.
+- Type : diversité ou variation des barkeeps.
+- Statut : **validé en mode Coop**.
+
+#### Résultat du test
+
+- Abonnement Steam Workshop effectué.
+- Mod activé depuis le menu Mods en jeu.
+- Test réalisé en mode Coop dans le pack 10.11.
+- Jeu stable, aucune erreur signalée.
+
+#### Conclusion
+
+**Diverse Barkeeps est validé pour le modpack.**
+
 ## Mods rejetés ou différés
 
 À compléter.
@@ -196,4 +288,6 @@ Follower Remote et Xevyr's Hearthstone ont été testés dans le pack QoL avanc�
 
 Craftable Armor Scraps, TDI_LegendaryRepair, Organizer Sorting Chest et Automatic Fish Trap ont été testés ensemble dans le pack 10.10.
 
-Conclusion pack 10.10 : **test concluant, mods validés, Sorting Chest fonctionne nickel en mode Coop**.
+Player Ignores Follower Collision, Enhanced Gliders, LegitReligious et Diverse Barkeeps ont été testés ensemble dans le pack 10.11.
+
+Conclusion pack 10.11 : **jeu stable, aucune erreur, pack validé en mode Coop**.
