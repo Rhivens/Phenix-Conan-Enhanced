@@ -398,3 +398,31 @@ Décision :
 - LegitReligious est validé comme mod de religion / progression légère, à surveiller en usage prolongé ;
 - Diverse Barkeeps est validé comme mod d'ambiance NPC ;
 - la base active passe à **26 mods validés**.
+
+## Étape 10.12 - Pack craft / sorcellerie / cuisine
+
+Statut : **validée**.
+
+Mods :
+
+- **[Enhanced] Craftable Legendaries** ;
+- **Sorcery Tweaks Enhanced** ;
+- **[Enhanced] Dark Decention Cooking and Brewing**.
+
+Résumé :
+
+- abonnements Steam Workshop effectués ;
+- mods activés depuis le menu Mods en jeu ;
+- test réalisé directement en mode Coop ;
+- test ingame validé ;
+- jeu stable et fluide ;
+- aucune erreur signalée ;
+- pack validé.
+
+Décision :
+
+- Craftable Legendaries est validé comme mod de craft / progression / équipement légendaire ;
+- Sorcery Tweaks Enhanced est validé comme mod de sorcellerie / gameplay léger ;
+- Dark Decention Cooking and Brewing est validé comme mod de cuisine / brassage / recettes ;
+- Craftable Legendaries devra être surveillé côté équilibrage en usage prolongé ;
+- la base active passe à **29 mods validés**.
