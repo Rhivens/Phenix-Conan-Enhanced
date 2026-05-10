@@ -10,7 +10,7 @@ Documenter les mods liés à la construction, aux pièces de bâtiment, aux déc
 
 Premier pack Building & Décoration testé : **Étape 10.8 - Pack visuel / déco / building léger**.
 
-Attention : **Lisas Building Stone Age est suspendu temporairement** après apparition d'une erreur de parsing du fichier `.pak`.
+Attention : **Lisas Building Stone Age est rejeté définitivement** après apparition d'une erreur de parsing du fichier `.pak` et affichage explicite en `<corrupted>` dans le menu Mods.
 
 ## Critères de sélection
 
@@ -20,7 +20,8 @@ Les mods de cette catégorie devront :
 - ne pas provoquer d'instabilité en host local / mode Coop ;
 - éviter les empilements massifs de dépendances ;
 - apporter un vrai intérêt en construction ou décoration ;
-- rester raisonnables pour un groupe de 3 à 4 joueurs.
+- rester raisonnables pour un groupe de 3 à 4 joueurs ;
+- être suffisamment stables pour ne pas risquer de casser la modlist.
 
 ## Mods candidats
 
@@ -78,7 +79,7 @@ Les mods de cette catégorie devront :
 - Objets de décoration visibles / testés.
 - Fonctionnement validé ingame.
 
-## Mods suspendus, rejetés ou différés
+## Mods rejetés ou différés
 
 ### Lisas Building Stone Age
 
@@ -86,7 +87,7 @@ Les mods de cette catégorie devront :
 - Source : Steam Workshop.
 - Workshop ID : `3723560519`.
 - Lien : https://steamcommunity.com/sharedfiles/filedetails/?id=3723560519
-- Statut : **suspendu temporairement**.
+- Statut : **rejeté définitivement**.
 
 #### Historique
 
@@ -106,18 +107,23 @@ Lisas_Building_Stone_Age.pak
 
 Après désabonnement du mod, le jeu a réinitialisé la modlist.
 
-Fabien a reconstruit et testé la base jusqu'au mod 22 : **tout est OK jusqu'au mod 22**.
+Fabien a reconstruit et testé la base jusqu'au mod 22 : **tout est OK jusqu'au mod 22 sans Lisas Building Stone Age**.
+
+Une nouvelle vérification dans le menu Mods a ensuite confirmé que le mod apparaît explicitement comme :
+
+```text
+<corrupted - Lisas_Building_Stone_Age.pak>
+```
+
+Le mod est en version bêta et venait juste d'être mis à jour.
 
 #### Décision
 
-Lisas Building Stone Age est retiré temporairement du load order officiel.
+Lisas Building Stone Age est exclu définitivement du modpack.
 
-Il pourra être retesté plus tard après :
+Raison : mod instable / fichier Workshop corrompu / risque trop élevé pour une base coop propre.
 
-- réabonnement propre ;
-- téléchargement complet du Workshop ;
-- validation du fichier `.pak` ;
-- test isolé en mode Coop.
+Il ne doit plus être proposé dans les packs de test futurs, sauf changement majeur et nouvelle version stable explicitement confirmée.
 
 ---
 
@@ -146,3 +152,5 @@ Le pack 10.8 a été testé une première fois avec succès.
 Conclusion initiale : **test OK, builds OK**.
 
 Conclusion après incident : **base validée jusqu'au mod 22 sans Lisas Building Stone Age**.
+
+Conclusion finale : **Lisas Building Stone Age rejeté définitivement pour instabilité**.
