@@ -182,3 +182,27 @@ Décision :
 - Simple Modlist est validé comme cinquième mod Interface & QoL ;
 - ce mod est utile pour consulter plus facilement la liste des mods actifs en jeu ;
 - il aidera les joueurs à vérifier leur installation et facilitera les diagnostics en cas d'erreur de modlist.
+
+## Étape 10.5 - Pack Fashionist + Better Thralls
+
+Statut : **validée**.
+
+Mods :
+
+- **Fashionist v5.0.2-enhanced** ;
+- **Better Thralls v3.0.0-enhanced**.
+
+Résumé :
+
+- abonnements Steam Workshop effectués ;
+- mods activés depuis le menu Mods en jeu ;
+- test réalisé en host local solo ;
+- Fashionist validé ingame ;
+- Better Thralls validé ingame ;
+- aucun problème bloquant signalé.
+
+Décision :
+
+- Fashionist est validé comme premier mod du bloc Cosmétiques, Armures & Vêtements ;
+- Better Thralls est validé comme premier mod du bloc Gameplay, Thralls & Animaux ;
+- Better Thralls touche à des systèmes plus sensibles, donc éviter d'ajouter immédiatement d'autres mods lourds sur les followers tant que la stabilité n'est pas mieux éprouvée.
