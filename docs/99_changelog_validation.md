@@ -118,3 +118,24 @@ Décision :
 
 - Simple Minimap est validé comme premier mod Interface & QoL ;
 - pour la suite, le menu Mods en jeu devient la référence principale de vérification, car le launcher Funcom peut ne pas afficher certains mods Workshop.
+
+## Étape 10.2 - Interface & QoL : Stacksize Plus
+
+Statut : **validée**.
+
+Mod : **Stacksize Plus v2.0.0-enhanced**.
+
+Résumé :
+
+- abonnement Steam Workshop effectué ;
+- mod activé depuis le menu Mods en jeu ;
+- test réalisé en host local solo ;
+- panneau administrateur utilisé pour accélérer le test ;
+- configuration testée via un objet avec inventaire / menu radial ;
+- fonctionnement validé ingame.
+
+Décision :
+
+- Stacksize Plus est validé comme second mod Interface & QoL ;
+- réglage conseillé au départ : `x5` ;
+- le réglage ne se fait pas depuis le panneau administrateur classique, mais via le menu radial d'un objet avec inventaire.
