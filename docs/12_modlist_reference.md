@@ -66,19 +66,22 @@ Cette logique pourra être ajustée selon les recommandations propres à certain
 | 16 | Topfreedom Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722359128) | `3722359128` | Cosmétique / NSFW léger / Apparence | Validé | Effet cosmétique lié à l'apparence / nudité selon les réglages du jeu et du mod. | Validé en mode Coop dans le pack 10.9. |
 | 17 | Tanny's WDV Tattoos und Narben - Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723007453) | `3723007453` | Cosmétique / Tatouages / Cicatrices | Validé | Tatouages / cicatrices accessibles en jeu selon l'interface du mod. | Validé en mode Coop dans le pack 10.9. |
 | 18 | Sacred Lust armor set | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721257555) | `3721257555` | Armure / Cosmétique / NSFW léger | Validé | Armure craftable / spawnable selon le mod ; compatibilité Fashionist à surveiller. | Validé en mode Coop dans le pack 10.9. |
-| 19 | Craftable Armor Scraps - Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723318494) | `3723318494` | Craft / Ressources | Validé | Recettes / craft accessibles selon le mod. | Validé en mode Coop dans le pack 10.10. |
-| 20 | TDI_LegendaryRepair [Enhanced] | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723127994) | `3723127994` | Craft / Réparation | Validé | Recette ou méthode de réparation légendaire propre au mod. | Validé en mode Coop dans le pack 10.10. |
-| 21 | Organizer Sorting Chest v1.0.0 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723101055) | `3723101055` | Interface & QoL / Stockage / Tri | Validé | Coffre de tri / fonctionnement propre au mod. | Fonctionne nickel avec Unlock Plus déjà présent. |
-| 22 | Automatic Fish Trap v1.0.3 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720452046) | `3720452046` | Gameplay léger / Ressources | Validé | Piège à poisson automatique selon le fonctionnement du mod. | Validé en mode Coop dans le pack 10.10. |
-| 23 | [Enhanced] Player Ignores Follower Collision | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720753923) | `3720753923` | Gameplay léger / Followers / Coop | Validé | Pas de réglage spécifique identifié pour le moment. | Validé en mode Coop dans le pack 10.11. |
-| 24 | Enhanced Gliders | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720667122) | `3720667122` | Gameplay léger / Mobilité | Validé | Planeurs / options selon le fonctionnement du mod. | Validé en mode Coop dans le pack 10.11. |
-| 25 | LegitReligious [Enhanced] | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720748663) | `3720748663` | Gameplay léger / Religion | Validé | Effets / recettes / religions selon le mod. | Stable en test Coop, à surveiller en usage prolongé. |
-| 26 | Diverse Barkeeps | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722887659) | `3722887659` | Ambiance NPC / Barkeeps | Validé | Fonctionnement passif / variations NPC selon le mod. | Validé en mode Coop dans le pack 10.11. |
-| 27 | [Enhanced] Craftable Legendaries | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721054666) | `3721054666` | Craft / Progression / Équipement légendaire | Validé | Recettes / craft légendaire selon le mod. | Stable et fluide en test Coop, à surveiller côté équilibrage. |
-| 28 | Sorcery Tweaks Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723524908) | `3723524908` | Sorcellerie / Gameplay léger | Validé | Ajustements sorcellerie selon le mod. | Validé en mode Coop dans le pack 10.12. |
-| 29 | [Enhanced] Dark Decention Cooking and Brewing | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721764383) | `3721764383` | Cuisine / Brassage / Recettes | Validé | Recettes cuisine / brassage selon le mod. | Stable et fluide en test Coop, aucune erreur. |
-| 30 | Ancient Civilization - Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721996090) | `3721996090` | Building / Décoration avancée | Validé | Pièces / objets de construction selon le mod. | Validé en mode Coop dans le pack 10.13. |
-| 31 | Desert Town | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721019326) | `3721019326` | Building / Décoration avancée | Validé | Pièces / objets de construction selon le mod. | Validé en mode Coop dans le pack 10.13. |
+| 19 | [Enhanced] Derketo Acolyte Replacer | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720479864) | `3720479864` | Cosmétique / NSFW léger / Armures | Validé | Remplacement visuel ciblé de tenue Derketo. | Validé en mode Coop dans l'étape 10.16. |
+| 20 | CNC - Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720730572) | `3720730572` | Cosmétique / Contenu léger | Validé | Contenu accessible selon le fonctionnement du mod. | Validé en mode Coop dans l'étape 10.17 ; intro toujours passable au clic souris. |
+| 21 | Craftable Armor Scraps - Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723318494) | `3723318494` | Craft / Ressources | Validé | Recettes / craft accessibles selon le mod. | Validé en mode Coop dans le pack 10.10. |
+| 22 | TDI_LegendaryRepair [Enhanced] | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723127994) | `3723127994` | Craft / Réparation | Validé | Recette ou méthode de réparation légendaire propre au mod. | Validé en mode Coop dans le pack 10.10. |
+| 23 | Organizer Sorting Chest v1.0.0 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723101055) | `3723101055` | Interface & QoL / Stockage / Tri | Validé | Coffre de tri / fonctionnement propre au mod. | Fonctionne nickel avec Unlock Plus déjà présent. |
+| 24 | Automatic Fish Trap v1.0.3 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720452046) | `3720452046` | Gameplay léger / Ressources | Validé | Piège à poisson automatique selon le fonctionnement du mod. | Validé en mode Coop dans le pack 10.10. |
+| 25 | [Enhanced] Player Ignores Follower Collision | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720753923) | `3720753923` | Gameplay léger / Followers / Coop | Validé | Pas de réglage spécifique identifié pour le moment. | Validé en mode Coop dans le pack 10.11. |
+| 26 | Enhanced Gliders | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720667122) | `3720667122` | Gameplay léger / Mobilité | Validé | Planeurs / options selon le fonctionnement du mod. | Validé en mode Coop dans le pack 10.11. |
+| 27 | [DrK] Spiders to Scorpions [ENHANCED] | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720692529) | `3720692529` | Créatures / Gameplay léger | Validé | Remplacement des araignées de base par des scorpions selon le mod. | Test ingame validé ; aucun CTD ni freeze. |
+| 28 | LegitReligious [Enhanced] | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720748663) | `3720748663` | Gameplay léger / Religion | Validé | Effets / recettes / religions selon le mod. | Stable en test Coop, à surveiller en usage prolongé. |
+| 29 | Diverse Barkeeps | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722887659) | `3722887659` | Ambiance NPC / Barkeeps | Validé | Fonctionnement passif / variations NPC selon le mod. | Validé en mode Coop dans le pack 10.11. |
+| 30 | [Enhanced] Craftable Legendaries | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721054666) | `3721054666` | Craft / Progression / Équipement légendaire | Validé | Recettes / craft légendaire selon le mod. | Stable et fluide en test Coop, à surveiller côté équilibrage. |
+| 31 | Sorcery Tweaks Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723524908) | `3723524908` | Sorcellerie / Gameplay léger | Validé | Ajustements sorcellerie selon le mod. | Validé en mode Coop dans le pack 10.12. |
+| 32 | [Enhanced] Dark Decention Cooking and Brewing | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721764383) | `3721764383` | Cuisine / Brassage / Recettes | Validé | Recettes cuisine / brassage selon le mod. | Stable et fluide en test Coop, aucune erreur. |
+| 33 | Ancient Civilization - Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721996090) | `3721996090` | Building / Décoration avancée | Validé | Pièces / objets de construction selon le mod. | Validé en mode Coop dans le pack 10.13. |
+| 34 | Desert Town | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721019326) | `3721019326` | Building / Décoration avancée | Validé | Pièces / objets de construction selon le mod. | Validé en mode Coop dans le pack 10.13. |
 
 ## Mods rejetés définitivement
 
@@ -97,7 +100,7 @@ Cette logique pourra être ajustée selon les recommandations propres à certain
 
 À ce stade, le fichier `modlist.txt` devra refléter l'ordre officiel ci-dessus.
 
-La base actuelle validée contient **31 mods actifs**.
+La base actuelle validée contient **34 mods actifs**.
 
 La forme exacte du fichier sera documentée lorsque la liste commencera à se stabiliser.
 
@@ -143,6 +146,8 @@ L'anomalie de l'intro non passable au clic souris a été identifiée comme lié
 
 Le mod a donc été retiré de la base active, afin de conserver une expérience de lancement propre pour les joueurs.
 
+Après validation de **CNC - Enhanced**, l'intro reste passable au clic souris.
+
 ### Menu Mods en jeu
 
 Pour Conan Exiles Enhanced / UE5, le launcher Funcom peut ne pas afficher certains mods Workshop.
@@ -168,4 +173,4 @@ docs/11_installation_joueurs.md
 
 ## Statut
 
-Document mis à jour avec les trente-et-un mods actifs actuellement validés, et les rejets/différés connus après test.
+Document mis à jour avec les trente-quatre mods actifs actuellement validés, et les rejets/différés connus après test.
