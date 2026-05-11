@@ -55,9 +55,17 @@ Une fois le menu principal atteint, quitter le jeu.
 
 Tous les mods de la version actuelle du modpack sont pris depuis le Steam Workshop.
 
+La liste officielle des mods, avec les liens Steam Workshop et l'ordre de chargement, se trouve ici :
+
+```text
+docs/12_modlist_reference.md
+```
+
+Lien direct dans le dépôt : [12 - Modlist de référence et load order](12_modlist_reference.md)
+
 Pour chaque mod Workshop :
 
-1. ouvrir le lien fourni dans la liste du modpack ;
+1. ouvrir le lien Steam Workshop fourni dans la liste du modpack ;
 2. cliquer sur **S'abonner** ;
 3. laisser Steam télécharger le mod ;
 4. attendre que tous les téléchargements soient terminés.
