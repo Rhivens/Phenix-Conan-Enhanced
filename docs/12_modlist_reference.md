@@ -2,151 +2,96 @@
 
 ## Objectif
 
-Ce document sert de référence officielle pour la liste des mods du modpack Conan Exiles Enhanced / UE5.
+Ce document sert de référence officielle pour le load order du modpack **Conan Exiles Enhanced / UE5**.
 
-Il doit permettre à Fabien et aux joueurs de vérifier :
-
-- les mods utilisés ;
-- leur source ;
-- leur lien direct ;
-- leur Workshop ID ;
-- leur catégorie ;
-- leur statut ;
-- leur ordre de chargement ;
-- leur méthode d'accès aux réglages.
-
-## Règle générale
-
-Tous les joueurs devront utiliser :
-
-- les mêmes mods ;
-- les mêmes versions autant que possible ;
-- le même ordre de chargement ;
-- aucun mod personnel supplémentaire.
-
-Un écart dans la liste ou l'ordre des mods peut empêcher de rejoindre la partie.
-
-## Logique générale du load order
-
-Ordre de principe retenu pour le modpack :
-
-1. Frameworks / librairies / dépendances
-2. Interface & QoL
-3. Stack / inventaire / confort système
-4. Building / construction
-5. Décoration / placeables
-6. Gameplay léger
-7. Thralls / compagnons / animaux
-8. Cosmétiques / armures / vêtements
-9. Ambiance visuelle / météo / lumière
-10. Administration / host local
-11. NSFW / contenu adulte
-
-Cette logique pourra être ajustée selon les recommandations propres à certains mods.
+Tous les joueurs doivent utiliser les mêmes mods, dans le même ordre, sans mod personnel supplémentaire.
 
 ## Load order officiel actuel
 
-| Ordre | Mod | Source | Lien | ID / Référence | Catégorie | Statut | Configuration / réglages | Notes |
-|---:|---|---|---|---|---|---|---|---|
-| 1 | Simple Minimap (by Xevyr) v5.1.1 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719513784) | `3719513784` | Interface & QoL | Validé | À vérifier en jeu dans les options du mod / paramètres disponibles. | Visible dans le menu Mods en jeu, pas forcément dans le launcher Funcom. |
-| 2 | Stacksize Plus v2.0.0-enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720915336) | `3720915336` | Interface & QoL / Inventaire | Validé | Menu radial sur un objet avec inventaire, par exemple coffre ou station de craft. Réglage conseillé : `x5`. | Ne se règle pas depuis le panneau administrateur classique. |
-| 3 | Lore & Loot Highlight v1.0.0 by Xevyr | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718655125) | `3718655125` | Interface & QoL / Repérage visuel | Validé | Console : `dc LLHSettings`. | Mise en évidence d'objets interactifs, lore et loot. |
-| 4 | Twin-Bar v5.0.4 by Xevyr | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719621216) | `3719621216` | Interface & QoL / Hotbar | Validé | Raccourcis clavier / paramètres de touches. Bascule via les raccourcis du mod. | Barre rapide avec emplacements secondaires. Fonctionnement validé en jeu. |
-| 5 | Simple Modlist v5.0.1 by Xevyr | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719546290) | `3719546290` | Interface & QoL / Information modlist | Validé | Consultation depuis le menu en jeu / écran Échap selon l'interface du mod. | Permet de consulter plus facilement la liste des mods actifs. |
-| 6 | Fashionist v5.0.2-enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720921242) | `3720921242` | Cosmétique / Armures / Apparence | Validé | Interface propre au mod / options Fashionist en jeu. | Gestion de l'apparence des armures, armes et options visuelles du personnage. |
-| 7 | Better Thralls v3.0.0-enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720904511) | `3720904511` | Gameplay / Thralls / Compagnons | Validé | Interface / options propres au mod en jeu. | Mod plus sensible : éviter d'ajouter immédiatement d'autres mods lourds sur les followers. |
-| 8 | Inventory Compactor v5.0.1 by Xevyr | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718614759) | `3718614759` | Interface & QoL / Inventaire | Validé | Bouton d'inventaire et menu radial sur conteneurs / stations. | Compactage d'inventaire, restack et rangement des espaces vides. |
-| 9 | Unlock Plus v2.0.1-enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720948133) | `3720948133` | Interface & QoL / Stockage | Validé | Menu accessible depuis l'inventaire du personnage / options propres au mod. | Mod structurant pour stockage et transferts, à surveiller en multijoueur. |
-| 10 | Follower Remote v5.0.3 by Xevyr | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718523921) | `3718523921` | Gameplay / Thralls / Compagnons | Validé | Console : `dc frsettings` ou interface de réglages Xevyr disponible. | Gestion à distance du comportement des followers et thralls. |
-| 11 | Xevyr's Hearthstone v5.0.0 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719642461) | `3719642461` | Gameplay léger / Mobilité | Validé | Cooldown admin : `dc hscooldown x`. | Pierre de retour liée au lit, confort coop à surveiller selon l'équilibre souhaité. |
-| 12 | Primal Instinct | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723050568) | `3723050568` | NSFW / Contenu adulte | Validé | Fonctionnement et accès aux options identifiés après prise en main en jeu. | Premier mod NSFW validé. Nudité totale activée par défaut dans le cadre du modpack. |
-| 13 | Panda's Bloody Mess | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723576515) | `3723576515` | Visuel / Ambiance gore | Validé | Pas de réglage spécifique identifié pour le moment. | Validé dans le pack 10.8. |
-| 14 | More Clan Emblems Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723546665) | `3723546665` | Clan / Emblèmes / Personnalisation | Validé | Via les options de clan / emblèmes du jeu. | Validé dans le pack 10.8. |
-| 15 | SH - Decorations v1.0.0 (Enhanced) | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723606644) | `3723606644` | Décoration / Placeables | Validé | Objets déco craftables / spawnables selon le mod. | Objets déco testés ingame. |
-| 16 | Topfreedom Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722359128) | `3722359128` | Cosmétique / NSFW léger / Apparence | Validé | Effet cosmétique lié à l'apparence / nudité selon les réglages du jeu et du mod. | Validé en mode Coop dans le pack 10.9. |
-| 17 | Tanny's WDV Tattoos und Narben - Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723007453) | `3723007453` | Cosmétique / Tatouages / Cicatrices | Validé | Tatouages / cicatrices accessibles en jeu selon l'interface du mod. | Validé en mode Coop dans le pack 10.9. |
-| 18 | Sacred Lust armor set | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721257555) | `3721257555` | Armure / Cosmétique / NSFW léger | Validé | Armure craftable / spawnable selon le mod ; compatibilité Fashionist à surveiller. | Validé en mode Coop dans le pack 10.9. |
-| 19 | [Enhanced] Derketo Acolyte Replacer | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720479864) | `3720479864` | Cosmétique / NSFW léger / Armures | Validé | Remplacement visuel ciblé de tenue Derketo. | Validé en mode Coop dans l'étape 10.16. |
-| 20 | CNC - Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720730572) | `3720730572` | Cosmétique / Contenu léger | Validé | Contenu accessible selon le fonctionnement du mod. | Validé en mode Coop dans l'étape 10.17 ; intro toujours passable au clic souris. |
-| 21 | Craftable Armor Scraps - Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723318494) | `3723318494` | Craft / Ressources | Validé | Recettes / craft accessibles selon le mod. | Validé en mode Coop dans le pack 10.10. |
-| 22 | TDI_LegendaryRepair [Enhanced] | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723127994) | `3723127994` | Craft / Réparation | Validé | Recette ou méthode de réparation légendaire propre au mod. | Validé en mode Coop dans le pack 10.10. |
-| 23 | Organizer Sorting Chest v1.0.0 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723101055) | `3723101055` | Interface & QoL / Stockage / Tri | Validé | Coffre de tri / fonctionnement propre au mod. | Fonctionne nickel avec Unlock Plus déjà présent. |
-| 24 | Automatic Fish Trap v1.0.3 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720452046) | `3720452046` | Gameplay léger / Ressources | Validé | Piège à poisson automatique selon le fonctionnement du mod. | Validé en mode Coop dans le pack 10.10. |
-| 25 | [Enhanced] Player Ignores Follower Collision | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720753923) | `3720753923` | Gameplay léger / Followers / Coop | Validé | Pas de réglage spécifique identifié pour le moment. | Validé en mode Coop dans le pack 10.11. |
-| 26 | Enhanced Gliders | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720667122) | `3720667122` | Gameplay léger / Mobilité | Validé | Planeurs / options selon le fonctionnement du mod. | Validé en mode Coop dans le pack 10.11. |
-| 27 | [DrK] Spiders to Scorpions [ENHANCED] | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720692529) | `3720692529` | Créatures / Gameplay léger | Validé | Remplacement des araignées de base par des scorpions selon le mod. | Test ingame validé ; aucun CTD ni freeze. |
-| 28 | LegitReligious [Enhanced] | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720748663) | `3720748663` | Gameplay léger / Religion | Validé | Effets / recettes / religions selon le mod. | Stable en test Coop, à surveiller en usage prolongé. |
-| 29 | Diverse Barkeeps | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722887659) | `3722887659` | Ambiance NPC / Barkeeps | Validé | Fonctionnement passif / variations NPC selon le mod. | Validé en mode Coop dans le pack 10.11. |
-| 30 | [Enhanced] Craftable Legendaries | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721054666) | `3721054666` | Craft / Progression / Équipement légendaire | Validé | Recettes / craft légendaire selon le mod. | Stable et fluide en test Coop, à surveiller côté équilibrage. |
-| 31 | Sorcery Tweaks Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723524908) | `3723524908` | Sorcellerie / Gameplay léger | Validé | Ajustements sorcellerie selon le mod. | Validé en mode Coop dans le pack 10.12. |
-| 32 | [Enhanced] Dark Decention Cooking and Brewing | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721764383) | `3721764383` | Cuisine / Brassage / Recettes | Validé | Recettes cuisine / brassage selon le mod. | Stable et fluide en test Coop, aucune erreur. |
-| 33 | Ancient Civilization - Enhanced | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721996090) | `3721996090` | Building / Décoration avancée | Validé | Pièces / objets de construction selon le mod. | Validé en mode Coop dans le pack 10.13. |
-| 34 | Desert Town | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721019326) | `3721019326` | Building / Décoration avancée | Validé | Pièces / objets de construction selon le mod. | Validé en mode Coop dans le pack 10.13. |
+| Ordre | Mod | Workshop ID | Fichier .pak | Catégorie | Statut | Notes |
+|---:|---|---:|---|---|---|---|
+| 1 | Simple Minimap | `3719513784` | `Simple_Minimap.pak` | Interface & QoL | Validé | Mod Xevyr. |
+| 2 | Stacksize Plus | `3720915336` | `StacksizePlus.pak` | Inventaire / confort | Validé | Réglage conseillé au départ : x5. |
+| 3 | Lore & Loot Highlight | `3718655125` | `LLHighlight.pak` | Interface & QoL | Validé | Commande : `dc LLHSettings`. |
+| 4 | Twin-Bar | `3719621216` | `TwinBar.pak` | Interface / hotbar | Validé | Barre rapide secondaire. |
+| 5 | Simple Modlist | `3719546290` | `SimpleModlist.pak` | Information modlist | Validé | Utile pour vérifier les mods actifs. |
+| 6 | Fashionist | `3720921242` | `StylistPlus.pak` | Apparence | Validé | Gestion cosmétique. |
+| 7 | Better Thralls | `3720904511` | `BetterThralls.pak` | Thralls / compagnons | Validé | À surveiller en usage prolongé. |
+| 8 | Inventory Compactor | `3718614759` | `Inventory_compactor.pak` | Inventaire | Validé | Compactage et rangement. |
+| 9 | Unlock Plus | `3720948133` | `UnlockableContainers.pak` | Stockage / QoL | Validé | Compatible avec Organizer Sorting Chest à ce stade. |
+| 10 | Follower Remote | `3718523921` | `Thrall_Commander.pak` | Thralls / compagnons | Validé | Commande : `dc frsettings`. |
+| 11 | Xevyr's Hearthstone | `3719642461` | `Xev_HearthStone.pak` | Mobilité | Validé | Pierre de retour liée au lit. |
+| 12 | Primal Instinct | `3723050568` | `PrimalInstincts.pak` | Contenu adulte privé | Validé | Mod retenu pour partie privée entre adultes. |
+| 13 | Panda's Bloody Mess | `3723576515` | `PandasBloodyMess.pak` | Ambiance visuelle | Validé | Ambiance gore. |
+| 14 | More Clan Emblems Enhanced | `3723546665` | `MoreClanEmblemsEnhanced.pak` | Clan / emblèmes | Validé | Personnalisation de clan. |
+| 15 | SH - Decorations | `3723606644` | `SH_Decorations.pak` | Décoration | Validé | Objets déco testés. |
+| 16 | Topfreedom Enhanced | `3722359128` | `Topfreedom.pak` | Apparence | Validé | Mod cosmétique. |
+| 17 | Tanny's WDV Tattoos und Narben - Enhanced | `3723007453` | `WdV_Tattoo_und_Narben.pak` | Tatouages / cicatrices | Validé | Testé en mode Coop. |
+| 18 | Sacred Lust armor set | `3721257555` | `LustGoddessArmor.pak` | Armure / cosmétique | Validé | Armure testée. |
+| 19 | Derketo Acolyte Replacer | `3720479864` | `DerketoAcolyteReplacer.pak` | Armure / cosmétique | Validé | Étape 10.16. |
+| 20 | CNC - Enhanced | `3720730572` | `CNC.pak` | Contenu léger | Validé | Étape 10.17 ; intro toujours passable. |
+| 21 | HyperBoreanReforged | `3722409363` | `HyperBoreanReforged.pak` | Contenu / équipement | Validé | Étape 10.19 ; placement terrain validé entre CNC et Armor Scraps. |
+| 22 | Craftable Armor Scraps - Enhanced | `3723318494` | `ArmorScrap.pak` | Craft / ressources | Validé | Étape 10.10. |
+| 23 | TDI_LegendaryRepair | `3723127994` | `TDI_LegendaryRepair.pak` | Craft / réparation | Validé | Réparation légendaire. |
+| 24 | Organizer Sorting Chest | `3723101055` | `SortingBox.pak` | Stockage / tri | Validé | Fonctionne avec Unlock Plus. |
+| 25 | Automatic Fish Trap | `3720452046` | `automatic_fish_trap_enhanced.pak` | Ressources | Validé | Automatisation légère. |
+| 26 | Player Ignores Follower Collision | `3720753923` | `EnhancedPlayerIgnoresFollowerCollision.pak` | Followers / Coop | Validé | Confort coop. |
+| 27 | Enhanced Gliders | `3720667122` | `AdvancedGliders.pak` | Mobilité | Validé | Planeurs. |
+| 28 | DrK Spiders to Scorpions | `3720692529` | `DrK_SpidersToScorpions_CEE.pak` | Créatures | Validé | Étape 10.18 ; aucun CTD ni freeze. |
+| 29 | LegitReligious | `3720748663` | `LegitReligious_Enhanced.pak` | Religion | Validé | À surveiller en usage prolongé. |
+| 30 | Diverse Barkeeps | `3722887659` | `DiverseBarkeepers.pak` | PNJ / ambiance | Validé | Étape 10.11. |
+| 31 | Craftable Legendaries | `3721054666` | `CraftableLegendaries.pak` | Craft / progression | Validé | À surveiller côté équilibrage. |
+| 32 | Sorcery Tweaks Enhanced | `3723524908` | `SorceryTweaksEnhanced.pak` | Sorcellerie | Validé | Étape 10.12. |
+| 33 | Dark Decention Cooking and Brewing | `3721764383` | `DarkDecentionCookingandBrewing.pak` | Cuisine / brassage | Validé | Étape 10.12. |
+| 34 | Navi's Revived Leveling Enhanced | `3722559607` | `NRLe.pak` | Progression / leveling | Validé | Étape 10.21 ; test par paliers jusqu'au niveau 80. |
+| 35 | Ancient Civilization - Enhanced | `3721996090` | `Asghaard_Ancient_Civilization.pak` | Building | Validé | Étape 10.13. |
+| 36 | Desert Town | `3721019326` | `Asghaard_Desert_Town.pak` | Building | Validé | Étape 10.13. |
+| 37 | Wicked Webs of Zamora UE5 | `3723048378` | `WickedWebsofZamora.pak` | Building | Validé | Étape 10.22 ; éléments de construction testés. |
+| 38 | The Purge mod by Xevyr | `3719604490` | `Retro_Purge.pak` | Gameplay système | Validé | Étapes 10.20 et 10.20b ; test fonctionnel contrôlé validé. |
 
-## Mods rejetés définitivement
+## Mods rejetés / retirés / différés
 
-| Mod | Source | Lien | ID / Référence | Ancien ordre | Statut | Raison |
-|---|---|---|---|---:|---|---|
-| Lisas Building Stone Age | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723560519) | `3723560519` | 16 | Rejeté | Mod affiché comme `<corrupted - Lisas_Building_Stone_Age.pak>`, erreur `failed to parse mod info`, version bêta instable récemment mise à jour. |
-
-## Mods rejetés / différés après test
-
-| Mod | Source | Lien | ID / Référence | Ancien ordre | Statut | Raison |
-|---|---|---|---|---:|---|---|
-| Enhanced Builder 2026.5.9 | Steam Workshop | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720763208) | `3720763208` | 32 | Retiré / différé | Identifié comme responsable du blocage de l'intro du jeu, impossible à passer au clic souris. Mod retiré pour conserver une expérience joueur propre dès le lancement. |
-| The Compendium of Crawling Chaos Enhanced Edition | Steam Workshop | À compléter | À compléter | 29 provisoire | Rejeté / différé | Test isolé après la base stable de 32 mods : freeze complet du PC, clavier inopérant, `CTRL + ALT + SUPPR` sans réponse, reset physique nécessaire. Retrait confirmé, retour stabilité OK. |
+| Mod | Statut | Raison |
+|---|---|---|
+| Lisas Building Stone Age | Rejeté | Mod affiché comme corrompu / erreur de parsing. |
+| Enhanced Builder 2026.5.9 | Retiré / différé | Identifié comme responsable du blocage de l'intro au clic souris. |
+| The Compendium of Crawling Chaos Enhanced Edition | Rejeté / différé | Freeze complet du PC lors du test isolé. Retrait confirmé, stabilité retrouvée. |
+| Chem's Pinnacle Levelling | Écarté / remplacé | Navi's Revived Leveling Enhanced répond mieux au besoin de progression configurable. |
+| Katis_Tattoos | Rejeté / différé | Dépendance Tot Custom non retenue pour l'objectif coop. |
+| Face It Enhanced | Rejeté / différé | Dépendance Tot Sudo non retenue pour conserver une base coop propre. |
+| Pickup+, LBPR et LBPR Additional Features | Différés | Non visibles via filtre Enhanced au moment de la recherche. |
 
 ## modlist.txt de référence
 
-À ce stade, le fichier `modlist.txt` devra refléter l'ordre officiel ci-dessus.
+La base actuelle validée contient **38 mods actifs**.
 
-La base actuelle validée contient **34 mods actifs**.
+L'ordre ci-dessus a été recalé à partir du `modlist.txt` réel fourni par Fabien.
 
-La forme exacte du fichier sera documentée lorsque la liste commencera à se stabiliser.
+Point important : **HyperBoreanReforged** est officiellement placé en position **21**, entre **CNC - Enhanced** et **Craftable Armor Scraps - Enhanced**.
 
 ## Notes importantes
 
-### Liens directs
-
-La colonne **Lien** doit être utilisée par les joueurs pour s'abonner aux bons mods.
-
-Cette méthode limite les erreurs de recherche Steam Workshop, notamment les confusions entre versions Legacy, anciennes versions UE4 et versions Enhanced / UE5.
-
-### Configuration des mods
-
-Conan Exiles Enhanced / UE5 ne dispose pas actuellement d'une interface centrale comparable au MCM de Skyrim pour regrouper tous les réglages des mods.
-
-Chaque mod peut utiliser une méthode différente :
-
-- options en jeu ;
-- menu radial ;
-- commande console ;
-- raccourcis clavier ;
-- paramètres propres au mod.
-
-La colonne **Configuration / réglages** sert donc de référence rapide pour savoir où chercher les options de chaque mod.
-
 ### Compatibilité coop
 
-Les tests de Fabien sont effectués directement en **mode Coop**, ce qui est plus représentatif de l'utilisation réelle prévue pour le modpack.
+Les tests de Fabien sont effectués directement en **mode Coop / host local**, ce qui est plus représentatif de l'utilisation réelle prévue pour le modpack.
 
-Les mods nécessitant des dépendances non compatibles coop sont rejetés ou différés.
+### Contenu adulte privé
 
-### Contenu NSFW
+Le modpack est destiné à une partie privée entre adultes. Les joueurs doivent être informés du contenu avant installation.
 
-Le modpack est destiné à une partie privée entre adultes.
+### Intro du jeu
 
-La nudité totale est activée par défaut, et les mods NSFW doivent être installés et testés avec prudence.
+L'anomalie de l'intro non passable au clic souris a été identifiée comme liée à **Enhanced Builder 2026.5.9**. Ce mod a été retiré. Après validation de **CNC - Enhanced**, l'intro reste passable au clic souris.
 
-Les joueurs doivent être informés du contenu adulte avant installation.
+### Note console / clavier AZERTY pour The Purge mod
 
-### Anomalies mineures non bloquantes
+Sur clavier AZERTY français, les commandes console du mod **The Purge mod** fonctionnent correctement après bascule temporaire du clavier Windows en **Anglais / QWERTY**.
 
-L'anomalie de l'intro non passable au clic souris a été identifiée comme liée à **Enhanced Builder 2026.5.9**.
+Dans ce mode :
 
-Le mod a donc été retiré de la base active, afin de conserver une expérience de lancement propre pour les joueurs.
-
-Après validation de **CNC - Enhanced**, l'intro reste passable au clic souris.
+- la touche physique `²` ouvre la console ;
+- les commandes `dc ...` doivent être tapées en mode clavier Anglais / QWERTY ;
+- pour quitter le mode Fly admin, utiliser la commande `Walk`.
 
 ### Menu Mods en jeu
 
@@ -173,4 +118,4 @@ docs/11_installation_joueurs.md
 
 ## Statut
 
-Document mis à jour avec les trente-quatre mods actifs actuellement validés, et les rejets/différés connus après test.
+Document mis à jour avec les **38 mods actifs actuellement validés** et les rejets / différés connus après test.
