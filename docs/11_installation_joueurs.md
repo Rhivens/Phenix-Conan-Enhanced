@@ -26,6 +26,19 @@ Chaque joueur devra avoir :
 
 Si les mods ne sont pas identiques, ou pas dans le même ordre, la connexion à la partie peut échouer.
 
+## Source des mods
+
+La modlist actuelle utilise uniquement des mods du **Steam Workshop**.
+
+Aucun téléchargement externe n'est nécessaire pour la version actuelle du modpack.
+
+Les joueurs doivent donc :
+
+- s'abonner uniquement aux mods Workshop listés dans la documentation ;
+- ne pas ajouter de mod personnel ;
+- ne pas installer d'ancien fichier `.pak` provenant d'une autre modlist ;
+- ne pas modifier l'ordre de chargement.
+
 ## Étape 1 - Lancer Conan Exiles Enhanced une première fois
 
 Avant d'installer les mods, lancer le jeu une première fois sans mod.
@@ -40,7 +53,7 @@ Une fois le menu principal atteint, quitter le jeu.
 
 ## Étape 2 - S'abonner aux mods Steam Workshop listés
 
-La majorité des mods seront, si possible, pris depuis le Steam Workshop.
+Tous les mods de la version actuelle du modpack sont pris depuis le Steam Workshop.
 
 Pour chaque mod Workshop :
 
@@ -51,47 +64,22 @@ Pour chaque mod Workshop :
 
 Ne pas lancer la partie tant que Steam télécharge encore des mods.
 
-## Étape 3 - Télécharger les éventuels mods Nexus indiqués
+## Étape 3 - Activer les mods dans le menu Mods du jeu
 
-Certains mods peuvent venir de Nexus Mods ou d'une autre source externe.
+Pour Conan Exiles Enhanced / UE5, le launcher Funcom peut ne pas afficher certains mods Workshop.
 
-Dans ce cas, ils seront indiqués clairement dans la documentation.
+La méthode de référence est donc le menu Mods directement en jeu.
 
-Pour chaque mod Nexus :
+Procédure :
 
-1. ouvrir le lien fourni ;
-2. télécharger la bonne version ;
-3. vérifier qu'il s'agit bien de la version demandée ;
-4. conserver le fichier téléchargé dans un endroit facile à retrouver.
+1. lancer Conan Exiles Enhanced ;
+2. ouvrir le menu **Mods** depuis le jeu ;
+3. vérifier que les mods abonnés apparaissent bien ;
+4. activer les mods nécessaires ;
+5. respecter l'ordre officiel indiqué dans `docs/12_modlist_reference.md` ;
+6. redémarrer le jeu si Conan le demande.
 
-Si aucun mod Nexus n'est utilisé, cette étape peut être ignorée.
-
-## Étape 4 - Copier les fichiers .pak Nexus dans le dossier Mods
-
-Les mods Conan externes sont généralement fournis sous forme de fichiers `.pak`.
-
-Ils doivent être placés dans le dossier suivant :
-
-```text
-<SteamLibrary>\steamapps\common\Conan Exiles\ConanSandbox\Mods
-```
-
-Exemple courant :
-
-```text
-C:\Program Files (x86)\Steam\steamapps\common\Conan Exiles\ConanSandbox\Mods
-```
-
-Si le jeu est installé sur un autre disque, le chemin peut être différent.
-
-Important :
-
-- copier uniquement les fichiers `.pak` demandés ;
-- ne pas renommer les fichiers `.pak` ;
-- ne pas ajouter d'anciens mods personnels ;
-- ne pas mélanger avec une ancienne installation modée.
-
-## Étape 5 - Vérifier ou remplacer le fichier modlist.txt
+## Étape 4 - Vérifier ou remplacer le fichier modlist.txt
 
 Conan utilise un fichier appelé `modlist.txt` pour savoir quels mods charger et dans quel ordre.
 
@@ -101,7 +89,7 @@ Ce fichier se trouve normalement ici :
 <SteamLibrary>\steamapps\common\Conan Exiles\ConanSandbox\Mods\modlist.txt
 ```
 
-La documentation du modpack fournira une version de référence du fichier `modlist.txt`.
+La documentation du modpack fournit une version de référence du fichier `modlist.txt` via le load order officiel.
 
 Chaque joueur devra vérifier que son fichier correspond bien à la version indiquée.
 
@@ -112,7 +100,7 @@ Attention :
 - ne pas supprimer de ligne ;
 - ne pas modifier le fichier au hasard.
 
-## Étape 6 - Relancer le jeu
+## Étape 5 - Relancer le jeu
 
 Une fois les mods installés et le fichier `modlist.txt` vérifié :
 
@@ -123,7 +111,7 @@ Une fois les mods installés et le fichier `modlist.txt` vérifié :
 
 Si le jeu demande un redémarrage après activation des mods, accepter et relancer.
 
-## Étape 7 - Rejoindre la partie
+## Étape 6 - Rejoindre la partie
 
 Quand tout est prêt :
 
@@ -138,11 +126,11 @@ Vérifier dans cet ordre :
 
 1. Steam a-t-il fini de télécharger tous les mods ?
 2. Le joueur est-il bien abonné à tous les mods Workshop listés ?
-3. Les fichiers `.pak` Nexus sont-ils bien dans `ConanSandbox\Mods` ?
+3. Les mods apparaissent-ils bien dans le menu Mods du jeu ?
 4. Le fichier `modlist.txt` correspond-il à la version de référence ?
 5. L'ordre des mods est-il identique ?
-6. Le jeu a-t-il été relancé après installation des mods ?
-7. Aucun ancien mod personnel ne traîne-t-il dans le dossier Mods ?
+6. Le jeu a-t-il été relancé après installation / activation des mods ?
+7. Aucun ancien mod personnel ne traîne-t-il dans le dossier `ConanSandbox\Mods` ?
 
 ## Règle simple pour les joueurs
 
@@ -154,6 +142,4 @@ Vérifier dans cet ordre :
 
 ## Statut
 
-Document initial créé.
-
-À compléter lorsque la liste réelle des mods sera validée.
+Document mis à jour pour la modlist actuelle basée uniquement sur le Steam Workshop.
