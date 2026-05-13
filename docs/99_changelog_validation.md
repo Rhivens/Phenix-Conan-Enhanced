@@ -589,7 +589,7 @@ Décision :
 
 ## Étape 10.23 - Clôture provisoire de la phase d'installation des mods
 
-Statut : **validée, puis rouverte pour ajout cosmétique ciblé à l'étape 10.24**.
+Statut : **validée, puis rouverte pour ajouts cosmétiques ciblés aux étapes 10.24 et 10.25**.
 
 Résumé :
 
@@ -601,7 +601,7 @@ Résumé :
 Décision :
 
 - fin provisoire de la phase d'installation de mods ;
-- phase rouverte ensuite pour ajout de Aquilonian Females Enhanced après test concluant.
+- phase rouverte ensuite pour ajout de Aquilonian Females Enhanced puis Complete Thrall Fashion.
 
 ## Étape 10.24 - Test isolé : Aquilonian Females Enhanced
 
@@ -610,7 +610,6 @@ Statut : **validée**.
 Résumé :
 
 - mod testé dans une nouvelle partie test ;
-- mod ajouté en dernier dans le load order ;
 - Workshop ID : `3721124998` ;
 - fichier `.pak` : `AquilonianFemales_UE5.pak` ;
 - test sur plusieurs tenues ingame ;
@@ -624,5 +623,27 @@ Résumé :
 Décision :
 
 - Aquilonian Females Enhanced est validé comme mod d'apparence / body féminin ;
-- le mod est ajouté en position **39**, tout en fin de load order ;
-- la base active passe à **39 mods actifs validés**.
+- le mod est désormais placé en position **40**, après Complete Thrall Fashion ;
+- la base active passe initialement à **39 mods actifs validés**, puis à **40** après l'étape 10.25.
+
+## Étape 10.25 - Test isolé : Complete Thrall Fashion vE-1.3.5
+
+Statut : **validée**.
+
+Résumé :
+
+- mod testé après la base stable de 39 mods ;
+- Workshop ID : `3725384942` ;
+- mod de personnalisation / apparence des thralls ;
+- test ingame validé ;
+- fonctionnement jugé correct ;
+- aucun CTD signalé ;
+- aucun freeze signalé ;
+- aucun comportement bloquant observé.
+
+Décision :
+
+- Complete Thrall Fashion vE-1.3.5 est validé comme mod d'apparence / fashion pour thralls ;
+- le mod est placé en position **39**, avant **Aquilonian Females Enhanced** ;
+- Aquilonian Females Enhanced passe en position **40** ;
+- la base active passe à **40 mods actifs validés**.
