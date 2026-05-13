@@ -48,7 +48,8 @@ Tous les joueurs doivent utiliser les mêmes mods, dans le même ordre, sans mod
 | 36 | Desert Town | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721019326) | `3721019326` | `Asghaard_Desert_Town.pak` | Building | Validé | Étape 10.13. |
 | 37 | Wicked Webs of Zamora UE5 | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723048378) | `3723048378` | `WickedWebsofZamora.pak` | Building | Validé | Étape 10.22 ; éléments de construction testés. |
 | 38 | The Purge mod by Xevyr | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719604490) | `3719604490` | `Retro_Purge.pak` | Gameplay système | Validé | Étapes 10.20 et 10.20b ; test fonctionnel contrôlé validé. |
-| 39 | Aquilonian Females Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721124998) | `3721124998` | `AquilonianFemales_UE5.pak` | Apparence / body féminin | Validé | Étape 10.24 ; test nouvelle partie concluant, pas de clipping observé sur plusieurs tenues. |
+| 39 | Complete Thrall Fashion vE-1.3.5 | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3725384942) | `3725384942` | `CompleteThrallFashion.pak` | Apparence / Thralls / Armures | Validé | Étape 10.25 ; testé et validé, placé avant Aquilonian Females Enhanced. Nom du `.pak` à confirmer depuis le `modlist.txt` réel. |
+| 40 | Aquilonian Females Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721124998) | `3721124998` | `AquilonianFemales_UE5.pak` | Apparence / body féminin | Validé | Étape 10.24 ; test nouvelle partie concluant, pas de clipping observé sur plusieurs tenues. |
 
 ## Mods rejetés / retirés / différés
 
@@ -64,13 +65,13 @@ Tous les joueurs doivent utiliser les mêmes mods, dans le même ordre, sans mod
 
 ## modlist.txt de référence
 
-La base actuelle validée contient **39 mods actifs**.
+La base actuelle validée contient **40 mods actifs**.
 
-L'ordre ci-dessus a été recalé à partir du `modlist.txt` réel fourni par Fabien.
+L'ordre ci-dessus a été recalé à partir du `modlist.txt` réel fourni par Fabien, avec ajout de **Complete Thrall Fashion vE-1.3.5** en position **39**, avant **Aquilonian Females Enhanced**.
 
 Point important : **HyperBoreanReforged** est officiellement placé en position **21**, entre **CNC - Enhanced** et **Craftable Armor Scraps - Enhanced**.
 
-Dernier ajout validé : **Aquilonian Females Enhanced** en position **39**, tout en fin de load order.
+Dernier ajout validé : **Complete Thrall Fashion vE-1.3.5** en position **39**.
 
 ## Notes importantes
 
@@ -121,4 +122,4 @@ docs/11_installation_joueurs.md
 
 ## Statut
 
-Document mis à jour avec les **39 mods actifs actuellement validés** et les rejets / différés connus après test.
+Document mis à jour avec les **40 mods actifs actuellement validés** et les rejets / différés connus après test.
