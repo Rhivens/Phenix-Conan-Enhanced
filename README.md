@@ -8,6 +8,14 @@ Documentation de construction progressive d'un modpack pour **Conan Exiles Enhan
 
 Ce modpack est conçu pour le clan **Phénix**, avec une orientation coop privée, stable, confortable et assumée : qualité de vie, construction, progression étendue, ambiance barbare, contenu cosmétique et cadre adulte réservé au groupe.
 
+## Installation rapide
+
+La collection Steam Workshop officielle du modpack est disponible ici :
+
+➡️ **[Collection Steam Workshop - Phénix Conan Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3725646502)**
+
+Les joueurs peuvent s'abonner aux mods depuis cette collection, puis suivre le guide d'installation pour vérifier l'ordre de chargement.
+
 ## Avertissement important - Modpack NSFW
 
 Ce modpack est destiné à une partie privée entre adultes.
@@ -80,6 +88,7 @@ C'est le meilleur point d'entrée pour suivre l'évolution du modpack : dernièr
 
 ## Liens utiles
 
+- **[Collection Steam Workshop officielle](https://steamcommunity.com/sharedfiles/filedetails/?id=3725646502)**
 - **[Guide d'installation joueurs](docs/11_installation_joueurs.md)**
 - **[Modlist de référence et load order](docs/12_modlist_reference.md)**
 - **[Mods NSFW](docs/13_mods_nsfw.md)**
