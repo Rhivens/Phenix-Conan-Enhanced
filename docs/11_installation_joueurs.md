@@ -32,9 +32,14 @@ La modlist actuelle utilise uniquement des mods du **Steam Workshop**.
 
 Aucun téléchargement externe n'est nécessaire pour la version actuelle du modpack.
 
+Une collection Steam Workshop officielle permet de s'abonner plus facilement aux mods :
+
+➡️ **[Collection Steam Workshop - Phénix Conan Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3725646502)**
+
 Les joueurs doivent donc :
 
-- s'abonner uniquement aux mods Workshop listés dans la documentation ;
+- s'abonner aux mods via la collection Steam Workshop officielle ;
+- vérifier ensuite que les mods correspondent bien à la modlist de référence ;
 - ne pas ajouter de mod personnel ;
 - ne pas installer d'ancien fichier `.pak` provenant d'une autre modlist ;
 - ne pas modifier l'ordre de chargement.
@@ -55,6 +60,16 @@ Une fois le menu principal atteint, quitter le jeu.
 
 Tous les mods de la version actuelle du modpack sont pris depuis le Steam Workshop.
 
+### Méthode recommandée : collection Steam Workshop
+
+Ouvrir la collection officielle :
+
+➡️ **[Collection Steam Workshop - Phénix Conan Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3725646502)**
+
+Puis s'abonner aux mods de la collection.
+
+### Vérification manuelle
+
 La liste officielle des mods, avec les liens Steam Workshop et l'ordre de chargement, se trouve ici :
 
 ```text
@@ -63,7 +78,7 @@ docs/12_modlist_reference.md
 
 Lien direct dans le dépôt : [12 - Modlist de référence et load order](12_modlist_reference.md)
 
-Pour chaque mod Workshop :
+Pour chaque mod Workshop si une vérification manuelle est nécessaire :
 
 1. ouvrir le lien Steam Workshop fourni dans la liste du modpack ;
 2. cliquer sur **S'abonner** ;
@@ -142,6 +157,7 @@ Vérifier dans cet ordre :
 
 ## Règle simple pour les joueurs
 
+- Utiliser la collection Steam Workshop officielle.
 - Ne pas ajouter de mods personnels.
 - Ne pas modifier l'ordre de chargement.
 - Ne pas renommer les fichiers.
@@ -150,4 +166,4 @@ Vérifier dans cet ordre :
 
 ## Statut
 
-Document mis à jour pour la modlist actuelle basée uniquement sur le Steam Workshop.
+Document mis à jour pour la modlist actuelle basée uniquement sur le Steam Workshop, avec ajout de la collection Steam Workshop officielle.
