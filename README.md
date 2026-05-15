@@ -12,7 +12,7 @@ Ce modpack est conçu pour le clan **Phénix**, avec une orientation coop privé
 
 La collection Steam Workshop officielle du modpack est disponible ici :
 
-➡️ **[Collection Steam Workshop - Phénix Conan Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3725646502)**
+➡️ **[Collection Steam Workshop - Phénix Conan Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3726259113)**
 
 Les joueurs peuvent s'abonner aux mods depuis cette collection, puis suivre le guide d'installation pour vérifier l'ordre de chargement.
 
