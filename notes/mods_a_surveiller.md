@@ -20,7 +20,16 @@ Il doit d'abord être vérifié sur les points suivants :
 
 ## Mods à surveiller
 
-À compléter.
+### Vanilia+ [Enhanced]
+
+- Workshop ID : `3722365087`
+- Lien : https://steamcommunity.com/sharedfiles/filedetails/?id=3722365087
+- Statut : **à surveiller**.
+- Intérêt principal : variantes d'armes **dual wield** pour épées et haches.
+- Réserve actuelle : le mod dépasse le simple ajout de dual wield et modifie aussi plusieurs aspects vanilla+.
+- Point bloquant provisoire : les armes dual wield semblent devoir être obtenues via admin panel / shop plutôt que via une progression naturelle de craft.
+- Décision actuelle : **ne pas installer ni tester pour le moment**.
+- Condition de réévaluation : attendre plus de retours communautaires, une intégration plus naturelle des armes dual wield, ou une confirmation claire de compatibilité après les mises à jour Conan Enhanced.
 
 ## Mods prometteurs mais différés
 
