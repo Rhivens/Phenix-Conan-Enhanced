@@ -10,15 +10,16 @@ Tous les joueurs doivent utiliser les mêmes mods, dans le même ordre, sans mod
 
 La référence complète contient désormais **43 mods listés**.
 
-Après la mise à jour Conan Enhanced, plusieurs mods ont dû être retirés temporairement. **SH - Decorations v1.0.1 (Enhanced)** a depuis été mis à jour, testé et réintégré. **SH - Building Kit (1.0.2)** a aussi été ajouté et validé.
+Après la mise à jour Conan Enhanced, plusieurs mods ont dû être retirés temporairement. **SH - Decorations v1.0.1 (Enhanced)** a depuis été mis à jour, testé et réintégré. **Primal Instincts Enhanced** a également été mis à jour, testé et réintégré. **SH - Building Kit (1.0.2)** a aussi été ajouté et validé.
 
 Résumé actuel :
 
-- **40 mods chargeables / fonctionnels** dans la base post-update actuelle ;
-- **3 mods en attente de mise à jour post-update** ;
+- **41 mods chargeables / fonctionnels** dans la base post-update actuelle ;
+- **2 mods en attente de mise à jour post-update** ;
 - **Navi's Revived Leveling Enhanced** est retiré et remplacé par **Level 120 Progression Mod** ;
 - **Al-Merayah Reborn** est ajouté et validé ;
 - **SH - Decorations** est réintégré après mise à jour ;
+- **Primal Instincts Enhanced** est réintégré après mise à jour ;
 - **SH - Building Kit** est ajouté et validé.
 
 ## Load order officiel actuel
@@ -37,7 +38,7 @@ Résumé actuel :
 | 10 | Unlock Plus | `3720948133` | `UnlockableContainers.pak` | Stockage / QoL | Validé | Compatible avec Organizer Sorting Chest à ce stade. |
 | 11 | Follower Remote | `3718523921` | `Thrall_Commander.pak` | Thralls / compagnons | Validé | Commande : `dc frsettings`. |
 | 12 | Xevyr's Hearthstone | `3719642461` | `Xev_HearthStone.pak` | Mobilité | Validé | Pierre de retour liée au lit. |
-| 13 | Primal Instinct | `3723050568` | `PrimalInstincts.pak` | Contenu adulte privé | En attente MAJ post-update | Crash avant menu après update : `ObjectSerializationError` / `Bad name index` sur `W_SpectatorCleanScreen`. |
+| 13 | Primal Instincts Enhanced | `3723050568` | `PrimalInstincts.pak` | Contenu adulte privé | Réintégré / validé | Ancien crash post-update corrigé par mise à jour. Menu actif et scènes fonctionnelles. |
 | 14 | Panda's Bloody Mess | `3723576515` | `PandasBloodyMess.pak` | Ambiance visuelle | Validé | Ambiance gore. |
 | 15 | More Clan Emblems Enhanced | `3723546665` | `MoreClanEmblemsEnhanced.pak` | Clan / emblèmes | Validé | Personnalisation de clan. |
 | 16 | SH - Decorations v1.0.1 Enhanced | `3723606644` | `SH_Decorations.pak` | Décoration | Réintégré / validé | Ancien crash post-update corrigé par la mise à jour v1.0.1. Testé et validé. |
@@ -75,7 +76,6 @@ Ces mods restent dans la référence officielle, mais ils ne doivent pas être c
 
 | Mod | Fichier .pak | Raison |
 |---|---|---|
-| Primal Instinct | `PrimalInstincts.pak` | Crash avant menu après update. |
 | Tanny's WDV Tattoos und Narben - Enhanced | `WdV_Tattoo_und_Narben.pak` | Crash avant menu après update. |
 | LegitReligious | `LegitReligious_Enhanced.pak` | Crash avant menu après update. |
 
@@ -94,6 +94,16 @@ Ces mods restent dans la référence officielle, mais ils ne doivent pas être c
 | Pickup+, LBPR et LBPR Additional Features | Différés | Non visibles via filtre Enhanced au moment de la recherche. |
 
 ## Notes importantes
+
+### Primal Instincts Enhanced
+
+**Primal Instincts Enhanced** est réintégré après mise à jour et validé.
+
+Test post-update :
+
+- menu actif ;
+- scènes fonctionnelles ;
+- ancien crash `W_SpectatorCleanScreen` non reproduit.
 
 ### SH - Decorations / SH - Building Kit
 
@@ -129,4 +139,4 @@ Méthode de vérification retenue : abonnement Workshop, présence du `.pak`, ac
 
 ## Statut
 
-Document mis à jour avec les **43 mods listés dans la référence complète**, dont **40 actuellement chargeables** et **3 en attente de mise à jour post-update**.
+Document mis à jour avec les **43 mods listés dans la référence complète**, dont **41 actuellement chargeables** et **2 en attente de mise à jour post-update**.
