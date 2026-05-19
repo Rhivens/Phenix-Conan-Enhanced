@@ -6,138 +6,119 @@ Ce document sert de référence officielle pour le load order du modpack **Conan
 
 Tous les joueurs doivent utiliser les mêmes mods, dans le même ordre, sans mod personnel supplémentaire.
 
+## État actuel de la référence
+
+La référence complète contient désormais **42 mods listés**.
+
+À cause de la mise à jour Conan Enhanced, certains mods restent temporairement en attente de mise à jour. Ils sont conservés dans la référence officielle, mais ne doivent pas être chargés dans le `modlist.txt` actif tant qu'ils n'ont pas été corrigés et retestés.
+
+Résumé actuel :
+
+- **38 mods chargeables / fonctionnels** dans la base post-update actuelle ;
+- **4 mods en attente de mise à jour post-update** ;
+- **Navi's Revived Leveling Enhanced** est retiré et remplacé par **Level 120 Progression Mod** ;
+- **Al-Merayah Reborn** est ajouté et validé.
+
 ## Load order officiel actuel
 
-| Ordre | Mod | Lien Steam Workshop | Workshop ID | Fichier .pak | Catégorie | Statut | Notes |
-|---:|---|---|---:|---|---|---|---|
-| 1 | Simple Minimap | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719513784) | `3719513784` | `Simple_Minimap.pak` | Interface & QoL | Validé | Mod Xevyr. |
-| 2 | Stacksize Plus | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720915336) | `3720915336` | `StacksizePlus.pak` | Inventaire / confort | Validé | Réglage conseillé au départ : x5. |
-| 3 | Lore & Loot Highlight | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718655125) | `3718655125` | `LLHighlight.pak` | Interface & QoL | Validé | Commande : `dc LLHSettings`. |
-| 4 | Twin-Bar | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719621216) | `3719621216` | `TwinBar.pak` | Interface / hotbar | Validé | Barre rapide secondaire. |
-| 5 | Simple Modlist | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719546290) | `3719546290` | `SimpleModlist.pak` | Information modlist | Validé | Utile pour vérifier les mods actifs. |
-| 6 | Fashionist | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720921242) | `3720921242` | `StylistPlus.pak` | Apparence | Validé | Gestion cosmétique. |
-| 7 | Better Thralls | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720904511) | `3720904511` | `BetterThralls.pak` | Thralls / compagnons | Validé | À surveiller en usage prolongé. |
-| 8 | [Enhanced] EAA - Lv50 Thralls | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3725707777) | `3725707777` | `EAA_ThrallLevelIncrease.pak` | Thralls / pets / progression | Validé | Étape 10.26 ; cap niveau 50 confirmé avec `LevelFollowerUpTo 21` puis `LevelFollowerUpTo 50`. |
-| 9 | Inventory Compactor | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718614759) | `3718614759` | `Inventory_compactor.pak` | Inventaire | Validé | Compactage et rangement. |
-| 10 | Unlock Plus | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720948133) | `3720948133` | `UnlockableContainers.pak` | Stockage / QoL | Validé | Compatible avec Organizer Sorting Chest à ce stade. |
-| 11 | Follower Remote | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718523921) | `3718523921` | `Thrall_Commander.pak` | Thralls / compagnons | Validé | Commande : `dc frsettings`. |
-| 12 | Xevyr's Hearthstone | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719642461) | `3719642461` | `Xev_HearthStone.pak` | Mobilité | Validé | Pierre de retour liée au lit. |
-| 13 | Primal Instinct | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723050568) | `3723050568` | `PrimalInstincts.pak` | Contenu adulte privé | Validé | Mod retenu pour partie privée entre adultes. |
-| 14 | Panda's Bloody Mess | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723576515) | `3723576515` | `PandasBloodyMess.pak` | Ambiance visuelle | Validé | Ambiance gore. |
-| 15 | More Clan Emblems Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723546665) | `3723546665` | `MoreClanEmblemsEnhanced.pak` | Clan / emblèmes | Validé | Personnalisation de clan. |
-| 16 | SH - Decorations | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723606644) | `3723606644` | `SH_Decorations.pak` | Décoration | Validé | Objets déco testés. |
-| 17 | Topfreedom Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722359128) | `3722359128` | `Topfreedom.pak` | Apparence | Validé | Mod cosmétique. |
-| 18 | Tanny's WDV Tattoos und Narben - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723007453) | `3723007453` | `WdV_Tattoo_und_Narben.pak` | Tatouages / cicatrices | Validé | Testé en mode Coop. |
-| 19 | Sacred Lust armor set | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721257555) | `3721257555` | `LustGoddessArmor.pak` | Armure / cosmétique | Validé | Armure testée. |
-| 20 | Derketo Acolyte Replacer | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720479864) | `3720479864` | `DerketoAcolyteReplacer.pak` | Armure / cosmétique | Validé | Étape 10.16. |
-| 21 | CNC - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720730572) | `3720730572` | `CNC.pak` | Contenu léger | Validé | Étape 10.17 ; intro toujours passable. |
-| 22 | HyperBoreanReforged | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722409363) | `3722409363` | `HyperBoreanReforged.pak` | Contenu / équipement | Validé | Étape 10.19 ; placement terrain validé entre CNC et Armor Scraps. |
-| 23 | Craftable Armor Scraps - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723318494) | `3723318494` | `ArmorScrap.pak` | Craft / ressources | Validé | Étape 10.10. |
-| 24 | TDI_LegendaryRepair | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723127994) | `3723127994` | `TDI_LegendaryRepair.pak` | Craft / réparation | Validé | Réparation légendaire. |
-| 25 | Organizer Sorting Chest | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723101055) | `3723101055` | `SortingBox.pak` | Stockage / tri | Validé | Fonctionne avec Unlock Plus. |
-| 26 | Automatic Fish Trap | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720452046) | `3720452046` | `automatic_fish_trap_enhanced.pak` | Ressources | Validé | Automatisation légère. |
-| 27 | Player Ignores Follower Collision | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720753923) | `3720753923` | `EnhancedPlayerIgnoresFollowerCollision.pak` | Followers / Coop | Validé | Confort coop. |
-| 28 | Enhanced Gliders | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720667122) | `3720667122` | `AdvancedGliders.pak` | Mobilité | Validé | Planeurs. |
-| 29 | DrK Spiders to Scorpions | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720692529) | `3720692529` | `DrK_SpidersToScorpions_CEE.pak` | Créatures | Validé | Étape 10.18 ; aucun CTD ni freeze. |
-| 30 | LegitReligious | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720748663) | `3720748663` | `LegitReligious_Enhanced.pak` | Religion | Validé | À surveiller en usage prolongé. |
-| 31 | Diverse Barkeeps | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722887659) | `3722887659` | `DiverseBarkeepers.pak` | PNJ / ambiance | Validé | Étape 10.11. |
-| 32 | Craftable Legendaries | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721054666) | `3721054666` | `CraftableLegendaries.pak` | Craft / progression | Validé | À surveiller côté équilibrage. |
-| 33 | Sorcery Tweaks Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723524908) | `3723524908` | `SorceryTweaksEnhanced.pak` | Sorcellerie | Validé | Étape 10.12. |
-| 34 | Dark Decention Cooking and Brewing | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721764383) | `3721764383` | `DarkDecentionCookingandBrewing.pak` | Cuisine / brassage | Validé | Étape 10.12. |
-| 35 | Navi's Revived Leveling Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722559607) | `3722559607` | `NRLe.pak` | Progression / leveling | Validé | Étape 10.21 ; test par paliers jusqu'au niveau 80. |
-| 36 | Ancient Civilization - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721996090) | `3721996090` | `Asghaard_Ancient_Civilization.pak` | Building | Validé | Étape 10.13. |
-| 37 | Desert Town | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721019326) | `3721019326` | `Asghaard_Desert_Town.pak` | Building | Validé | Étape 10.13. |
-| 38 | Wicked Webs of Zamora UE5 | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723048378) | `3723048378` | `WickedWebsofZamora.pak` | Building | Validé | Étape 10.22 ; éléments de construction testés. |
-| 39 | The Purge mod by Xevyr | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719604490) | `3719604490` | `Retro_Purge.pak` | Gameplay système | Validé | Étapes 10.20 et 10.20b ; test fonctionnel contrôlé validé. |
-| 40 | Complete Thrall Fashion vE-1.3.5 | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3725384942) | `3725384942` | `CompleteFashion.pak` | Apparence / Thralls / Armures | Validé | Étape 10.25 ; testé et validé, placé avant Aquilonian Females Enhanced. |
-| 41 | Aquilonian Females Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721124998) | `3721124998` | `AquilonianFemales_UE5.pak` | Apparence / body féminin | Validé | Étape 10.24 ; test nouvelle partie concluant, pas de clipping observé sur plusieurs tenues. |
+| Ordre | Mod | Workshop ID | Fichier .pak | Catégorie | Statut | Notes |
+|---:|---|---:|---|---|---|---|
+| 1 | Simple Minimap | `3719513784` | `Simple_Minimap.pak` | Interface & QoL | Validé | Mod Xevyr. |
+| 2 | Stacksize Plus | `3720915336` | `StacksizePlus.pak` | Inventaire / confort | Validé | Réglage conseillé au départ : x5. |
+| 3 | Lore & Loot Highlight | `3718655125` | `LLHighlight.pak` | Interface & QoL | Validé | Commande : `dc LLHSettings`. |
+| 4 | Twin-Bar | `3719621216` | `TwinBar.pak` | Interface / hotbar | Validé | Barre rapide secondaire. |
+| 5 | Simple Modlist | `3719546290` | `SimpleModlist.pak` | Information modlist | Validé | Utile pour vérifier les mods actifs. |
+| 6 | Fashionist | `3720921242` | `StylistPlus.pak` | Apparence | Validé | Gestion cosmétique. |
+| 7 | Better Thralls | `3720904511` | `BetterThralls.pak` | Thralls / compagnons | Validé | À surveiller en usage prolongé. |
+| 8 | [Enhanced] EAA - Lv50 Thralls | `3725707777` | `EAA_ThrallLevelIncrease.pak` | Thralls / pets / progression | Validé | Cap niveau 50 confirmé avec `LevelFollowerUpTo 21` puis `LevelFollowerUpTo 50`. |
+| 9 | Inventory Compactor | `3718614759` | `Inventory_compactor.pak` | Inventaire | Validé | Compactage et rangement. |
+| 10 | Unlock Plus | `3720948133` | `UnlockableContainers.pak` | Stockage / QoL | Validé | Compatible avec Organizer Sorting Chest à ce stade. |
+| 11 | Follower Remote | `3718523921` | `Thrall_Commander.pak` | Thralls / compagnons | Validé | Commande : `dc frsettings`. |
+| 12 | Xevyr's Hearthstone | `3719642461` | `Xev_HearthStone.pak` | Mobilité | Validé | Pierre de retour liée au lit. |
+| 13 | Primal Instinct | `3723050568` | `PrimalInstincts.pak` | Contenu adulte privé | En attente MAJ post-update | Crash avant menu après update : `ObjectSerializationError` / `Bad name index` sur `W_SpectatorCleanScreen`. |
+| 14 | Panda's Bloody Mess | `3723576515` | `PandasBloodyMess.pak` | Ambiance visuelle | Validé | Ambiance gore. |
+| 15 | More Clan Emblems Enhanced | `3723546665` | `MoreClanEmblemsEnhanced.pak` | Clan / emblèmes | Validé | Personnalisation de clan. |
+| 16 | SH - Decorations | `3723606644` | `SH_Decorations.pak` | Décoration | En attente MAJ post-update | Crash avant menu après update : `ObjectSerializationError` / `Bad export index` sur `BP_PL_Deco_Ground`. |
+| 17 | Topfreedom Enhanced | `3722359128` | `Topfreedom.pak` | Apparence | Validé | Mod cosmétique. |
+| 18 | Tanny's WDV Tattoos und Narben - Enhanced | `3723007453` | `WdV_Tattoo_und_Narben.pak` | Tatouages / cicatrices | En attente MAJ post-update | Crash avant menu après update : `ObjectSerializationError` / `Bad name index` sur `WDV_BP_PL_Brazier_of_Pain`. |
+| 19 | Sacred Lust armor set | `3721257555` | `LustGoddessArmor.pak` | Armure / cosmétique | Validé | Armure testée. |
+| 20 | Derketo Acolyte Replacer | `3720479864` | `DerketoAcolyteReplacer.pak` | Armure / cosmétique | Validé | Test isolé validé. |
+| 21 | CNC - Enhanced | `3720730572` | `CNC.pak` | Contenu léger | Validé | Intro toujours passable. |
+| 22 | HyperBoreanReforged | `3722409363` | `HyperBoreanReforged.pak` | Contenu / équipement | Validé | Placement validé entre CNC et Armor Scraps. |
+| 23 | Craftable Armor Scraps - Enhanced | `3723318494` | `ArmorScrap.pak` | Craft / ressources | Validé | Craft / ressources. |
+| 24 | TDI_LegendaryRepair | `3723127994` | `TDI_LegendaryRepair.pak` | Craft / réparation | Validé | Réparation légendaire. |
+| 25 | Organizer Sorting Chest | `3723101055` | `SortingBox.pak` | Stockage / tri | Validé | Fonctionne avec Unlock Plus. |
+| 26 | Automatic Fish Trap | `3720452046` | `automatic_fish_trap_enhanced.pak` | Ressources | Validé | Automatisation légère. |
+| 27 | Player Ignores Follower Collision | `3720753923` | `EnhancedPlayerIgnoresFollowerCollision.pak` | Followers / Coop | Validé | Confort coop. |
+| 28 | Enhanced Gliders | `3720667122` | `AdvancedGliders.pak` | Mobilité | Validé | Planeurs. |
+| 29 | DrK Spiders to Scorpions | `3720692529` | `DrK_SpidersToScorpions_CEE.pak` | Créatures | Validé | Aucun CTD ni freeze. |
+| 30 | LegitReligious | `3720748663` | `LegitReligious_Enhanced.pak` | Religion | En attente MAJ post-update | Crash avant menu après update, identifié par isolation. Erreur liée à `/Game/Dev/AlmostEmpty` / `Ultra_Dynamic_Sky_BP`. |
+| 31 | Diverse Barkeeps | `3722887659` | `DiverseBarkeepers.pak` | PNJ / ambiance | Validé | Ambiance PNJ. |
+| 32 | Craftable Legendaries | `3721054666` | `CraftableLegendaries.pak` | Craft / progression | Validé | À surveiller côté équilibrage. |
+| 33 | Sorcery Tweaks Enhanced | `3723524908` | `SorceryTweaksEnhanced.pak` | Sorcellerie | Validé | Sorcellerie. |
+| 34 | Dark Decention Cooking and Brewing | `3721764383` | `DarkDecentionCookingandBrewing.pak` | Cuisine / brassage | Validé | Cuisine / brassage. |
+| 35 | Level 120 Progression Mod | `3722211036` | `à confirmer depuis le modlist.txt réel` | Progression / leveling | Validé | Remplace Navi's Revived Leveling Enhanced. Progression utile jusqu'au niveau 120 ; après 120, le PJ continue de monter mais sans points d'attributs ni de savoir. |
+| 36 | Ancient Civilization - Enhanced | `3721996090` | `Asghaard_Ancient_Civilization.pak` | Building | Validé | Building. |
+| 37 | Desert Town | `3721019326` | `Asghaard_Desert_Town.pak` | Building | Validé | Building. |
+| 38 | Wicked Webs of Zamora UE5 | `3723048378` | `WickedWebsofZamora.pak` | Building | Validé | Éléments de construction testés. |
+| 39 | Al-Merayah Reborn by Xevyr | `3718036277` | `à confirmer depuis le modlist.txt réel` | Gameplay système / contenu monde | Validé | Testé et validé après update. Placement conseillé : avant The Purge mod. |
+| 40 | The Purge mod by Xevyr | `3719604490` | `Retro_Purge.pak` | Gameplay système | Validé | Test fonctionnel contrôlé validé. |
+| 41 | Complete Thrall Fashion vE-1.3.5 | `3725384942` | `CompleteFashion.pak` | Apparence / Thralls / Armures | Validé | Placé avant Aquilonian Females Enhanced. |
+| 42 | Aquilonian Females Enhanced | `3721124998` | `AquilonianFemales_UE5.pak` | Apparence / body féminin | Validé | Test nouvelle partie concluant, pas de clipping observé sur plusieurs tenues. |
 
-## Mods rejetés / retirés / différés
+## Mods temporairement en attente de mise à jour post-update
+
+Ces mods restent dans la référence officielle, mais ils ne doivent pas être chargés dans le `modlist.txt` actif tant qu'ils n'ont pas été corrigés et retestés :
+
+| Mod | Fichier .pak | Raison |
+|---|---|---|
+| Primal Instinct | `PrimalInstincts.pak` | Crash avant menu après update. |
+| SH - Decorations | `SH_Decorations.pak` | Crash avant menu après update. |
+| Tanny's WDV Tattoos und Narben - Enhanced | `WdV_Tattoo_und_Narben.pak` | Crash avant menu après update. |
+| LegitReligious | `LegitReligious_Enhanced.pak` | Crash avant menu après update. |
+
+## Mods rejetés / retirés / remplacés / différés
 
 | Mod | Statut | Raison |
 |---|---|---|
 | Lisas Building Stone Age | Rejeté | Mod affiché comme corrompu / erreur de parsing. |
 | Enhanced Builder 2026.5.9 | Retiré / différé | Identifié comme responsable du blocage de l'intro au clic souris. |
 | The Compendium of Crawling Chaos Enhanced Edition | Rejeté / différé | Freeze complet du PC lors du test isolé. Retrait confirmé, stabilité retrouvée. |
-| Chem's Pinnacle Levelling | Écarté / remplacé | Navi's Revived Leveling Enhanced répond mieux au besoin de progression configurable. |
+| Chem's Pinnacle Levelling | Écarté / remplacé | Navi's Revived Leveling Enhanced répondait mieux au besoin de progression configurable à ce moment-là. |
+| Navi's Revived Leveling Enhanced | Remplacé / retiré | Cassé après mise à jour Conan Enhanced ; remplacé par Level 120 Progression Mod. |
 | [Enhanced] More T4 Thralls Plus - v1.0.0 | Rejeté | Crash Unreal / UE-ConanSandbox à l'arrivée ingame. Test de contrôle sans le mod : retour à la stabilité. |
 | Katis_Tattoos | Rejeté / différé | Dépendance Tot Custom non retenue pour l'objectif coop. |
 | Face It Enhanced | Rejeté / différé | Dépendance Tot Sudo non retenue pour conserver une base coop propre. |
 | Pickup+, LBPR et LBPR Additional Features | Différés | Non visibles via filtre Enhanced au moment de la recherche. |
 
-## modlist.txt de référence
-
-La base actuelle validée contient **41 mods actifs**.
-
-L'ordre ci-dessus a été recalé à partir du `modlist.txt` réel fourni par Fabien, puis mis à jour après les tests suivants :
-
-- rejet de **[Enhanced] More T4 Thralls Plus - v1.0.0** après crash ingame immédiat ;
-- ajout et validation de **[Enhanced] EAA - Lv50 Thralls** en position **8**, sous **Better Thralls**.
-
-Point important : **HyperBoreanReforged** reste officiellement placé entre **CNC - Enhanced** et **Craftable Armor Scraps - Enhanced**.
-
-Dernier ajout validé : **[Enhanced] EAA - Lv50 Thralls**.
-
-Nom exact du fichier `.pak` confirmé depuis le `modlist.txt` réel : `EAA_ThrallLevelIncrease.pak`.
-
 ## Notes importantes
+
+### Level 120 Progression Mod
+
+**Level 120 Progression Mod** remplace **Navi's Revived Leveling Enhanced**.
+
+Comportement validé :
+
+- progression utile jusqu'au niveau 120 ;
+- après le niveau 120, le personnage peut continuer à gagner des niveaux ;
+- après le niveau 120, il ne reçoit plus de points d'attributs ni de points de savoir.
+
+Ce comportement est accepté pour le modpack.
+
+### Al-Merayah Reborn
+
+**Al-Merayah Reborn by Xevyr** est validé et placé avant **The Purge mod by Xevyr**.
 
 ### Compatibilité coop
 
 Les tests de Fabien sont effectués directement en **mode Coop / host local**, ce qui est plus représentatif de l'utilisation réelle prévue pour le modpack.
 
-### Contenu adulte privé
-
-Le modpack est destiné à une partie privée entre adultes. Les joueurs doivent être informés du contenu avant installation.
-
-### Intro du jeu
-
-L'anomalie de l'intro non passable au clic souris a été identifiée comme liée à **Enhanced Builder 2026.5.9**. Ce mod a été retiré. Après validation de **CNC - Enhanced**, l'intro reste passable au clic souris.
-
-### Note console / clavier AZERTY pour The Purge mod
-
-Sur clavier AZERTY français, les commandes console du mod **The Purge mod** fonctionnent correctement après bascule temporaire du clavier Windows en **Anglais / QWERTY**.
-
-Dans ce mode :
-
-- la touche physique `²` ouvre la console ;
-- les commandes `dc ...` doivent être tapées en mode clavier Anglais / QWERTY ;
-- pour quitter le mode Fly admin, utiliser la commande `Walk`.
-
-### Note console / validation de EAA - Lv50 Thralls
-
-Le mod **[Enhanced] EAA - Lv50 Thralls** a été validé avec un thrall de test via les commandes admin suivantes :
-
-```text
-LevelFollowerUpTo 21
-LevelFollowerUpTo 50
-```
-
-Le passage au niveau 21 puis au niveau 50 confirme que le cap de progression est bien déverrouillé, même si l'interface du thrall n'indique pas explicitement le niveau maximum possible.
-
 ### Menu Mods en jeu
 
 Pour Conan Exiles Enhanced / UE5, le launcher Funcom peut ne pas afficher certains mods Workshop.
 
-Méthode de vérification retenue :
-
-1. vérifier l'abonnement Steam Workshop ;
-2. vérifier que le fichier `.pak` existe dans le dossier Workshop Steam ;
-3. lancer le jeu ;
-4. ouvrir le menu Mods depuis le jeu ;
-5. activer les mods depuis ce menu ;
-6. respecter le load order officiel ;
-7. redémarrer si le jeu le demande ;
-8. tester en mode Coop / host local.
-
-### Installation joueurs
-
-Les joueurs devront se référer au fichier suivant :
-
-```text
-docs/11_installation_joueurs.md
-```
+Méthode de vérification retenue : abonnement Workshop, présence du `.pak`, activation dans le menu Mods en jeu, respect du load order, redémarrage si demandé, puis test en Coop / host local.
 
 ## Statut
 
-Document mis à jour avec les **41 mods actifs actuellement validés** et les rejets / différés connus après test.
+Document mis à jour avec les **42 mods listés dans la référence complète**, dont **38 actuellement chargeables** et **4 en attente de mise à jour post-update**.
