@@ -79,7 +79,7 @@ Le modpack intègre progressivement :
 - tests effectués directement en Coop / host local pour la construction de la modlist ;
 - orientation NSFW validée ;
 - référence complète actuelle : **43 mods listés** ;
-- état post-update : **40 mods chargeables** et **3 mods en attente de mise à jour**.
+- état post-update : **41 mods chargeables** et **2 mods en attente de mise à jour**.
 
 ## Suivre l'avancement du projet
 
