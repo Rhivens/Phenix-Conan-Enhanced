@@ -8,23 +8,17 @@ Tous les joueurs doivent utiliser les mêmes mods, dans le même ordre, sans mod
 
 ## État actuel de la référence
 
-La référence complète contient désormais **45 mods listés**.
+La référence complète contient désormais **46 mods listés**.
 
-La nouvelle série de tests ingame a validé plusieurs changements :
-
-- **Tanny's WDV Tattoos und Narben - Enhanced** est réintégré et validé ;
-- **Exile Architect: Enhanced** est ajouté et validé ;
-- **Adonia Salon** est ajouté et validé ;
-- **Grims Wonderbody Reupload Enhanced** est ajouté et validé ;
-- **Aquilonian Females Enhanced** est retiré, remplacé par **Wonderbody Enhanced** ;
-- **LegitReligious** reste le seul mod encore en attente de mise à jour post-update.
+La dernière série de tests ingame a validé l'ajout de **Greater Camera Distance Enhanced**, placé dans le bloc Interface & QoL, juste sous **Simple Modlist**.
 
 Résumé actuel :
 
-- **44 mods chargeables / fonctionnels** dans la base active ;
+- **45 mods chargeables / fonctionnels** dans la base active ;
 - **1 mod en attente de mise à jour post-update** ;
 - **Navi's Revived Leveling Enhanced** est retiré et remplacé par **Level 120 Progression Mod** ;
-- **Aquilonian Females Enhanced** est retiré et remplacé par **Grims Wonderbody Reupload Enhanced**.
+- **Aquilonian Females Enhanced** est retiré et remplacé par **Grims Wonderbody Reupload Enhanced** ;
+- **Greater Camera Distance Enhanced** est ajouté et validé comme QoL caméra / confort combat.
 
 ## Load order officiel actuel
 
@@ -35,46 +29,47 @@ Résumé actuel :
 | 3 | Lore & Loot Highlight | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718655125) | `3718655125` | `LLHighlight.pak` | Interface & QoL | Validé | Commande : `dc LLHSettings`. |
 | 4 | Twin-Bar | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719621216) | `3719621216` | `TwinBar.pak` | Interface / hotbar | Validé | Barre rapide secondaire. |
 | 5 | Simple Modlist | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719546290) | `3719546290` | `SimpleModlist.pak` | Information modlist | Validé | Utile pour vérifier les mods actifs. |
-| 6 | Fashionist | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720921242) | `3720921242` | `StylistPlus.pak` | Apparence | Validé | Gestion cosmétique. |
-| 7 | Better Thralls | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720904511) | `3720904511` | `BetterThralls.pak` | Thralls / compagnons | Validé | À surveiller en usage prolongé. |
-| 8 | [Enhanced] EAA - Lv50 Thralls | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3725707777) | `3725707777` | `EAA_ThrallLevelIncrease.pak` | Thralls / pets / progression | Validé | Cap niveau 50 confirmé avec `LevelFollowerUpTo 21` puis `LevelFollowerUpTo 50`. |
-| 9 | Inventory Compactor | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718614759) | `3718614759` | `Inventory_compactor.pak` | Inventaire | Validé | Compactage et rangement. |
-| 10 | Unlock Plus | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720948133) | `3720948133` | `UnlockableContainers.pak` | Stockage / QoL | Validé | Compatible avec Organizer Sorting Chest à ce stade. |
-| 11 | Follower Remote | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718523921) | `3718523921` | `Thrall_Commander.pak` | Thralls / compagnons | Validé | Commande : `dc frsettings`. |
-| 12 | Xevyr's Hearthstone | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719642461) | `3719642461` | `Xev_HearthStone.pak` | Mobilité | Validé | Pierre de retour liée au lit. |
-| 13 | Primal Instincts Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723050568) | `3723050568` | `PrimalInstincts.pak` | Contenu adulte privé | Réintégré / validé | Ancien crash post-update corrigé par mise à jour. Menu actif et scènes fonctionnelles. |
-| 14 | Panda's Bloody Mess | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723576515) | `3723576515` | `PandasBloodyMess.pak` | Ambiance visuelle | Validé | Ambiance gore. |
-| 15 | More Clan Emblems Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723546665) | `3723546665` | `MoreClanEmblemsEnhanced.pak` | Clan / emblèmes | Validé | Personnalisation de clan. |
-| 16 | SH - Decorations v1.0.1 Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723606644) | `3723606644` | `SH_Decorations.pak` | Décoration | Réintégré / validé | Ancien crash post-update corrigé par la mise à jour v1.0.1. Testé et validé. |
-| 17 | Topfreedom Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722359128) | `3722359128` | `Topfreedom.pak` | Apparence | Validé | Mod cosmétique. |
-| 18 | Tanny's WDV Tattoos und Narben - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723007453) | `3723007453` | `WdV_Tattoo_und_Narben.pak` | Tatouages / cicatrices | Réintégré / validé | Test ingame OK : aucun crash, aucun freeze, fonctionnement confirmé. |
-| 19 | Sacred Lust armor set | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721257555) | `3721257555` | `LustGoddessArmor.pak` | Armure / cosmétique | Validé | Armure testée. |
-| 20 | Derketo Acolyte Replacer | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720479864) | `3720479864` | `DerketoAcolyteReplacer.pak` | Armure / cosmétique | Validé | Test isolé validé. |
-| 21 | CNC - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720730572) | `3720730572` | `CNC.pak` | Contenu léger | Validé | Intro toujours passable. |
-| 22 | HyperBoreanReforged | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722409363) | `3722409363` | `HyperBoreanReforged.pak` | Contenu / équipement | Validé | Placement validé entre CNC et Armor Scraps. |
-| 23 | Craftable Armor Scraps - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723318494) | `3723318494` | `ArmorScrap.pak` | Craft / ressources | Validé | Craft / ressources. |
-| 24 | TDI_LegendaryRepair | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723127994) | `3723127994` | `TDI_LegendaryRepair.pak` | Craft / réparation | Validé | Réparation légendaire. |
-| 25 | Organizer Sorting Chest | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723101055) | `3723101055` | `SortingBox.pak` | Stockage / tri | Validé | Fonctionne avec Unlock Plus. |
-| 26 | Automatic Fish Trap | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720452046) | `3720452046` | `automatic_fish_trap_enhanced.pak` | Ressources | Validé | Automatisation légère. |
-| 27 | Player Ignores Follower Collision | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720753923) | `3720753923` | `EnhancedPlayerIgnoresFollowerCollision.pak` | Followers / Coop | Validé | Confort coop. |
-| 28 | Enhanced Gliders | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720667122) | `3720667122` | `AdvancedGliders.pak` | Mobilité | Validé | Planeurs. |
-| 29 | DrK Spiders to Scorpions | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720692529) | `3720692529` | `DrK_SpidersToScorpions_CEE.pak` | Créatures | Validé | Aucun CTD ni freeze. |
-| 30 | LegitReligious | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720748663) | `3720748663` | `LegitReligious_Enhanced.pak` | Religion | En attente MAJ post-update | Non chargé dans la base active. Ne bloque pas le modpack pour jouer. |
-| 31 | Diverse Barkeeps | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722887659) | `3722887659` | `DiverseBarkeepers.pak` | PNJ / ambiance | Validé | Ambiance PNJ. |
-| 32 | Craftable Legendaries | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721054666) | `3721054666` | `CraftableLegendaries.pak` | Craft / progression | Validé | À surveiller côté équilibrage. |
-| 33 | Sorcery Tweaks Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723524908) | `3723524908` | `SorceryTweaksEnhanced.pak` | Sorcellerie | Validé | Sorcellerie. |
-| 34 | Dark Decention Cooking and Brewing | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721764383) | `3721764383` | `DarkDecentionCookingandBrewing.pak` | Cuisine / brassage | Validé | Cuisine / brassage. |
-| 35 | Level 120 Progression Mod | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722211036) | `3722211036` | `Level120Progression.pak` | Progression / leveling | Validé | Remplace Navi's Revived Leveling Enhanced. Progression utile jusqu'au niveau 120 ; après 120, le PJ continue de monter mais sans points d'attributs ni de savoir. |
-| 36 | Exile Architect: Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3729398837) | `3729398837` | `RopeLines.pak` | Building léger | Validé | Testé ingame seul puis avec la modlist complète. Fonctionne nickel. |
-| 37 | SH - Building Kit Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3728528172) | `3728528172` | `SH_BuildingKit.pak` | Building | Validé | Ajouté avec SH - Decorations v1.0.1. Testé et validé. |
-| 38 | Ancient Civilization - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721996090) | `3721996090` | `Asghaard_Ancient_Civilization.pak` | Building | Validé | Building. |
-| 39 | Desert Town | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721019326) | `3721019326` | `Asghaard_Desert_Town.pak` | Building | Validé | Building. |
-| 40 | Wicked Webs of Zamora UE5 | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723048378) | `3723048378` | `WickedWebsofZamora.pak` | Building | Validé | Éléments de construction testés. |
-| 41 | Al-Merayah Reborn by Xevyr | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718036277) | `3718036277` | `AlMerayah_Reborn.pak` | Gameplay système / contenu monde | Validé | Testé et validé après update. Placement conseillé : avant The Purge mod. |
-| 42 | The Purge mod by Xevyr | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719604490) | `3719604490` | `Retro_Purge.pak` | Gameplay système | Validé | Test fonctionnel contrôlé validé. |
-| 43 | Complete Thrall Fashion vE-1.3.5 | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3725384942) | `3725384942` | `CompleteFashion.pak` | Apparence / Thralls / Armures | Validé | Placé avant les mods d'apparence finale. |
-| 44 | Adonia Salon | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3729456480) | `3729456480` | `AdoniaHairs.pak` | Apparence / coiffures | Validé | Ajouté et testé ingame. |
-| 45 | Grims Wonderbody Reupload Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3729384808) | `3729384808` | `WonderBody_Enhanced.pak` | Apparence / body féminin | Validé | Remplace Aquilonian Females Enhanced. Testé ingame seul puis avec la modlist complète. |
+| 6 | Greater Camera Distance Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=863041645) | `863041645` | `à confirmer depuis le modlist.txt réel` | Caméra / QoL combat | Validé | Test concluant. Bon QoL caméra en combat. Placé sous Simple Modlist. |
+| 7 | Fashionist | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720921242) | `3720921242` | `StylistPlus.pak` | Apparence | Validé | Gestion cosmétique. |
+| 8 | Better Thralls | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720904511) | `3720904511` | `BetterThralls.pak` | Thralls / compagnons | Validé | À surveiller en usage prolongé. |
+| 9 | [Enhanced] EAA - Lv50 Thralls | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3725707777) | `3725707777` | `EAA_ThrallLevelIncrease.pak` | Thralls / pets / progression | Validé | Cap niveau 50 confirmé avec `LevelFollowerUpTo 21` puis `LevelFollowerUpTo 50`. |
+| 10 | Inventory Compactor | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718614759) | `3718614759` | `Inventory_compactor.pak` | Inventaire | Validé | Compactage et rangement. |
+| 11 | Unlock Plus | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720948133) | `3720948133` | `UnlockableContainers.pak` | Stockage / QoL | Validé | Compatible avec Organizer Sorting Chest à ce stade. |
+| 12 | Follower Remote | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718523921) | `3718523921` | `Thrall_Commander.pak` | Thralls / compagnons | Validé | Commande : `dc frsettings`. |
+| 13 | Xevyr's Hearthstone | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719642461) | `3719642461` | `Xev_HearthStone.pak` | Mobilité | Validé | Pierre de retour liée au lit. |
+| 14 | Primal Instincts Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723050568) | `3723050568` | `PrimalInstincts.pak` | Contenu adulte privé | Réintégré / validé | Ancien crash post-update corrigé par mise à jour. Menu actif et scènes fonctionnelles. |
+| 15 | Panda's Bloody Mess | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723576515) | `3723576515` | `PandasBloodyMess.pak` | Ambiance visuelle | Validé | Ambiance gore. |
+| 16 | More Clan Emblems Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723546665) | `3723546665` | `MoreClanEmblemsEnhanced.pak` | Clan / emblèmes | Validé | Personnalisation de clan. |
+| 17 | SH - Decorations v1.0.1 Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723606644) | `3723606644` | `SH_Decorations.pak` | Décoration | Réintégré / validé | Ancien crash post-update corrigé par la mise à jour v1.0.1. Testé et validé. |
+| 18 | Topfreedom Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722359128) | `3722359128` | `Topfreedom.pak` | Apparence | Validé | Mod cosmétique. |
+| 19 | Tanny's WDV Tattoos und Narben - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723007453) | `3723007453` | `WdV_Tattoo_und_Narben.pak` | Tatouages / cicatrices | Réintégré / validé | Test ingame OK : aucun crash, aucun freeze, fonctionnement confirmé. |
+| 20 | Sacred Lust armor set | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721257555) | `3721257555` | `LustGoddessArmor.pak` | Armure / cosmétique | Validé | Armure testée. |
+| 21 | Derketo Acolyte Replacer | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720479864) | `3720479864` | `DerketoAcolyteReplacer.pak` | Armure / cosmétique | Validé | Test isolé validé. |
+| 22 | CNC - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720730572) | `3720730572` | `CNC.pak` | Contenu léger | Validé | Intro toujours passable. |
+| 23 | HyperBoreanReforged | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722409363) | `3722409363` | `HyperBoreanReforged.pak` | Contenu / équipement | Validé | Placement validé entre CNC et Armor Scraps. |
+| 24 | Craftable Armor Scraps - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723318494) | `3723318494` | `ArmorScrap.pak` | Craft / ressources | Validé | Craft / ressources. |
+| 25 | TDI_LegendaryRepair | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723127994) | `3723127994` | `TDI_LegendaryRepair.pak` | Craft / réparation | Validé | Réparation légendaire. |
+| 26 | Organizer Sorting Chest | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723101055) | `3723101055` | `SortingBox.pak` | Stockage / tri | Validé | Fonctionne avec Unlock Plus. |
+| 27 | Automatic Fish Trap | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720452046) | `3720452046` | `automatic_fish_trap_enhanced.pak` | Ressources | Validé | Automatisation légère. |
+| 28 | Player Ignores Follower Collision | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720753923) | `3720753923` | `EnhancedPlayerIgnoresFollowerCollision.pak` | Followers / Coop | Validé | Confort coop. |
+| 29 | Enhanced Gliders | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720667122) | `3720667122` | `AdvancedGliders.pak` | Mobilité | Validé | Planeurs. |
+| 30 | DrK Spiders to Scorpions | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720692529) | `3720692529` | `DrK_SpidersToScorpions_CEE.pak` | Créatures | Validé | Aucun CTD ni freeze. |
+| 31 | LegitReligious | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3720748663) | `3720748663` | `LegitReligious_Enhanced.pak` | Religion | En attente MAJ post-update | Non chargé dans la base active. Ne bloque pas le modpack pour jouer. |
+| 32 | Diverse Barkeeps | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722887659) | `3722887659` | `DiverseBarkeepers.pak` | PNJ / ambiance | Validé | Ambiance PNJ. |
+| 33 | Craftable Legendaries | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721054666) | `3721054666` | `CraftableLegendaries.pak` | Craft / progression | Validé | À surveiller côté équilibrage. |
+| 34 | Sorcery Tweaks Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723524908) | `3723524908` | `SorceryTweaksEnhanced.pak` | Sorcellerie | Validé | Sorcellerie. |
+| 35 | Dark Decention Cooking and Brewing | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721764383) | `3721764383` | `DarkDecentionCookingandBrewing.pak` | Cuisine / brassage | Validé | Cuisine / brassage. |
+| 36 | Level 120 Progression Mod | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3722211036) | `3722211036` | `Level120Progression.pak` | Progression / leveling | Validé | Remplace Navi's Revived Leveling Enhanced. Progression utile jusqu'au niveau 120 ; après 120, le PJ continue de monter mais sans points d'attributs ni de savoir. |
+| 37 | Exile Architect: Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3729398837) | `3729398837` | `RopeLines.pak` | Building léger | Validé | Testé ingame seul puis avec la modlist complète. Fonctionne nickel. |
+| 38 | SH - Building Kit Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3728528172) | `3728528172` | `SH_BuildingKit.pak` | Building | Validé | Ajouté avec SH - Decorations v1.0.1. Testé et validé. |
+| 39 | Ancient Civilization - Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721996090) | `3721996090` | `Asghaard_Ancient_Civilization.pak` | Building | Validé | Building. |
+| 40 | Desert Town | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3721019326) | `3721019326` | `Asghaard_Desert_Town.pak` | Building | Validé | Building. |
+| 41 | Wicked Webs of Zamora UE5 | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3723048378) | `3723048378` | `WickedWebsofZamora.pak` | Building | Validé | Éléments de construction testés. |
+| 42 | Al-Merayah Reborn by Xevyr | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3718036277) | `3718036277` | `AlMerayah_Reborn.pak` | Gameplay système / contenu monde | Validé | Testé et validé après update. Placement conseillé : avant The Purge mod. |
+| 43 | The Purge mod by Xevyr | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3719604490) | `3719604490` | `Retro_Purge.pak` | Gameplay système | Validé | Test fonctionnel contrôlé validé. |
+| 44 | Complete Thrall Fashion vE-1.3.5 | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3725384942) | `3725384942` | `CompleteFashion.pak` | Apparence / Thralls / Armures | Validé | Placé avant les mods d'apparence finale. |
+| 45 | Adonia Salon | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3729456480) | `3729456480` | `AdoniaHairs.pak` | Apparence / coiffures | Validé | Ajouté et testé ingame. |
+| 46 | Grims Wonderbody Reupload Enhanced | [Ouvrir](https://steamcommunity.com/sharedfiles/filedetails/?id=3729384808) | `3729384808` | `WonderBody_Enhanced.pak` | Apparence / body féminin | Validé | Remplace Aquilonian Females Enhanced. Testé ingame seul puis avec la modlist complète. |
 
 ## Mods temporairement en attente de mise à jour post-update
 
@@ -101,6 +96,14 @@ Ce mod reste dans la référence officielle, mais il ne doit pas être chargé d
 | Pickup+, LBPR et LBPR Additional Features | Différés | Non visibles via filtre Enhanced au moment de la recherche. |
 
 ## Notes importantes
+
+### Greater Camera Distance Enhanced
+
+**Greater Camera Distance Enhanced** est ajouté comme QoL caméra / confort combat.
+
+Placement validé : sous **Simple Modlist**, dans le bloc Interface & QoL.
+
+Le nom exact du fichier `.pak` devra être confirmé depuis le prochain `modlist.txt` réel.
 
 ### Série de tests ingame récente
 
@@ -150,4 +153,4 @@ Méthode de vérification retenue : abonnement Workshop, présence du `.pak`, ac
 
 ## Statut
 
-Document mis à jour avec les **45 mods listés dans la référence complète**, dont **44 actuellement chargeables** et **1 en attente de mise à jour post-update**.
+Document mis à jour avec les **46 mods listés dans la référence complète**, dont **45 actuellement chargeables** et **1 en attente de mise à jour post-update**.
