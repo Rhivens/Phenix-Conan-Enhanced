@@ -34,7 +34,7 @@ Aucun téléchargement externe n'est nécessaire pour la version actuelle du mod
 
 Une collection Steam Workshop officielle permet de s'abonner plus facilement aux mods :
 
-➡️ **[Collection Steam Workshop - Phénix Conan Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3725646502)**
+➡️ **[Collection Steam Workshop - Phénix Conan Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3726259113)**
 
 Les joueurs doivent donc :
 
@@ -64,7 +64,7 @@ Tous les mods de la version actuelle du modpack sont pris depuis le Steam Worksh
 
 Ouvrir la collection officielle :
 
-➡️ **[Collection Steam Workshop - Phénix Conan Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3725646502)**
+➡️ **[Collection Steam Workshop - Phénix Conan Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3726259113)**
 
 Puis s'abonner aux mods de la collection.
 
@@ -166,4 +166,4 @@ Vérifier dans cet ordre :
 
 ## Statut
 
-Document mis à jour pour la modlist actuelle basée uniquement sur le Steam Workshop, avec ajout de la collection Steam Workshop officielle.
+Document mis à jour avec le lien actuel de la collection Steam Workshop officielle.
