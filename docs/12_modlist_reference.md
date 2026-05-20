@@ -8,19 +8,23 @@ Tous les joueurs doivent utiliser les mêmes mods, dans le même ordre, sans mod
 
 ## État actuel de la référence
 
-La référence complète contient désormais **43 mods listés**.
+La référence complète contient désormais **45 mods listés**.
 
-Après la mise à jour Conan Enhanced, plusieurs mods ont dû être retirés temporairement. **SH - Decorations v1.0.1 (Enhanced)** a depuis été mis à jour, testé et réintégré. **Primal Instincts Enhanced** a également été mis à jour, testé et réintégré. **SH - Building Kit (1.0.2)** a aussi été ajouté et validé.
+La nouvelle série de tests ingame a validé plusieurs changements :
+
+- **Tanny's WDV Tattoos und Narben - Enhanced** est réintégré et validé ;
+- **Exile Architect: Enhanced** est ajouté et validé ;
+- **Adonia Salon** est ajouté et validé ;
+- **Grims Wonderbody Reupload Enhanced** est ajouté et validé ;
+- **Aquilonian Females Enhanced** est retiré, remplacé par **Wonderbody Enhanced** ;
+- **LegitReligious** reste le seul mod encore en attente de mise à jour post-update.
 
 Résumé actuel :
 
-- **41 mods chargeables / fonctionnels** dans la base post-update actuelle ;
-- **2 mods en attente de mise à jour post-update** ;
+- **44 mods chargeables / fonctionnels** dans la base active ;
+- **1 mod en attente de mise à jour post-update** ;
 - **Navi's Revived Leveling Enhanced** est retiré et remplacé par **Level 120 Progression Mod** ;
-- **Al-Merayah Reborn** est ajouté et validé ;
-- **SH - Decorations** est réintégré après mise à jour ;
-- **Primal Instincts Enhanced** est réintégré après mise à jour ;
-- **SH - Building Kit** est ajouté et validé.
+- **Aquilonian Females Enhanced** est retiré et remplacé par **Grims Wonderbody Reupload Enhanced**.
 
 ## Load order officiel actuel
 
@@ -43,7 +47,7 @@ Résumé actuel :
 | 15 | More Clan Emblems Enhanced | `3723546665` | `MoreClanEmblemsEnhanced.pak` | Clan / emblèmes | Validé | Personnalisation de clan. |
 | 16 | SH - Decorations v1.0.1 Enhanced | `3723606644` | `SH_Decorations.pak` | Décoration | Réintégré / validé | Ancien crash post-update corrigé par la mise à jour v1.0.1. Testé et validé. |
 | 17 | Topfreedom Enhanced | `3722359128` | `Topfreedom.pak` | Apparence | Validé | Mod cosmétique. |
-| 18 | Tanny's WDV Tattoos und Narben - Enhanced | `3723007453` | `WdV_Tattoo_und_Narben.pak` | Tatouages / cicatrices | En attente MAJ post-update | Crash avant menu après update : `ObjectSerializationError` / `Bad name index` sur `WDV_BP_PL_Brazier_of_Pain`. |
+| 18 | Tanny's WDV Tattoos und Narben - Enhanced | `3723007453` | `WdV_Tattoo_und_Narben.pak` | Tatouages / cicatrices | Réintégré / validé | Test ingame OK : aucun crash, aucun freeze, fonctionnement confirmé. |
 | 19 | Sacred Lust armor set | `3721257555` | `LustGoddessArmor.pak` | Armure / cosmétique | Validé | Armure testée. |
 | 20 | Derketo Acolyte Replacer | `3720479864` | `DerketoAcolyteReplacer.pak` | Armure / cosmétique | Validé | Test isolé validé. |
 | 21 | CNC - Enhanced | `3720730572` | `CNC.pak` | Contenu léger | Validé | Intro toujours passable. |
@@ -55,29 +59,30 @@ Résumé actuel :
 | 27 | Player Ignores Follower Collision | `3720753923` | `EnhancedPlayerIgnoresFollowerCollision.pak` | Followers / Coop | Validé | Confort coop. |
 | 28 | Enhanced Gliders | `3720667122` | `AdvancedGliders.pak` | Mobilité | Validé | Planeurs. |
 | 29 | DrK Spiders to Scorpions | `3720692529` | `DrK_SpidersToScorpions_CEE.pak` | Créatures | Validé | Aucun CTD ni freeze. |
-| 30 | LegitReligious | `3720748663` | `LegitReligious_Enhanced.pak` | Religion | En attente MAJ post-update | Crash avant menu après update, identifié par isolation. Erreur liée à `/Game/Dev/AlmostEmpty` / `Ultra_Dynamic_Sky_BP`. |
+| 30 | LegitReligious | `3720748663` | `LegitReligious_Enhanced.pak` | Religion | En attente MAJ post-update | Non chargé dans la base active. Ne bloque pas le modpack pour jouer. |
 | 31 | Diverse Barkeeps | `3722887659` | `DiverseBarkeepers.pak` | PNJ / ambiance | Validé | Ambiance PNJ. |
 | 32 | Craftable Legendaries | `3721054666` | `CraftableLegendaries.pak` | Craft / progression | Validé | À surveiller côté équilibrage. |
 | 33 | Sorcery Tweaks Enhanced | `3723524908` | `SorceryTweaksEnhanced.pak` | Sorcellerie | Validé | Sorcellerie. |
 | 34 | Dark Decention Cooking and Brewing | `3721764383` | `DarkDecentionCookingandBrewing.pak` | Cuisine / brassage | Validé | Cuisine / brassage. |
 | 35 | Level 120 Progression Mod | `3722211036` | `Level120Progression.pak` | Progression / leveling | Validé | Remplace Navi's Revived Leveling Enhanced. Progression utile jusqu'au niveau 120 ; après 120, le PJ continue de monter mais sans points d'attributs ni de savoir. |
-| 36 | SH - Building Kit Enhanced | `3728528172` | `SH_BuildingKit.pak` | Building | Validé | Ajouté avec SH - Decorations v1.0.1. Testé et validé. |
-| 37 | Ancient Civilization - Enhanced | `3721996090` | `Asghaard_Ancient_Civilization.pak` | Building | Validé | Building. |
-| 38 | Desert Town | `3721019326` | `Asghaard_Desert_Town.pak` | Building | Validé | Building. |
-| 39 | Wicked Webs of Zamora UE5 | `3723048378` | `WickedWebsofZamora.pak` | Building | Validé | Éléments de construction testés. |
-| 40 | Al-Merayah Reborn by Xevyr | `3718036277` | `AlMerayah_Reborn.pak` | Gameplay système / contenu monde | Validé | Testé et validé après update. Placement conseillé : avant The Purge mod. |
-| 41 | The Purge mod by Xevyr | `3719604490` | `Retro_Purge.pak` | Gameplay système | Validé | Test fonctionnel contrôlé validé. |
-| 42 | Complete Thrall Fashion vE-1.3.5 | `3725384942` | `CompleteFashion.pak` | Apparence / Thralls / Armures | Validé | Placé avant Aquilonian Females Enhanced. |
-| 43 | Aquilonian Females Enhanced | `3721124998` | `AquilonianFemales_UE5.pak` | Apparence / body féminin | Validé | Test nouvelle partie concluant, pas de clipping observé sur plusieurs tenues. |
+| 36 | Exile Architect: Enhanced | `3729398837` | `RopeLines.pak` | Building léger | Validé | Testé ingame seul puis avec la modlist complète. Fonctionne nickel. |
+| 37 | SH - Building Kit Enhanced | `3728528172` | `SH_BuildingKit.pak` | Building | Validé | Ajouté avec SH - Decorations v1.0.1. Testé et validé. |
+| 38 | Ancient Civilization - Enhanced | `3721996090` | `Asghaard_Ancient_Civilization.pak` | Building | Validé | Building. |
+| 39 | Desert Town | `3721019326` | `Asghaard_Desert_Town.pak` | Building | Validé | Building. |
+| 40 | Wicked Webs of Zamora UE5 | `3723048378` | `WickedWebsofZamora.pak` | Building | Validé | Éléments de construction testés. |
+| 41 | Al-Merayah Reborn by Xevyr | `3718036277` | `AlMerayah_Reborn.pak` | Gameplay système / contenu monde | Validé | Testé et validé après update. Placement conseillé : avant The Purge mod. |
+| 42 | The Purge mod by Xevyr | `3719604490` | `Retro_Purge.pak` | Gameplay système | Validé | Test fonctionnel contrôlé validé. |
+| 43 | Complete Thrall Fashion vE-1.3.5 | `3725384942` | `CompleteFashion.pak` | Apparence / Thralls / Armures | Validé | Placé avant les mods d'apparence finale. |
+| 44 | Adonia Salon | `3729456480` | `AdoniaHairs.pak` | Apparence / coiffures | Validé | Ajouté et testé ingame. |
+| 45 | Grims Wonderbody Reupload Enhanced | `3729384808` | `WonderBody_Enhanced.pak` | Apparence / body féminin | Validé | Remplace Aquilonian Females Enhanced. Testé ingame seul puis avec la modlist complète. |
 
 ## Mods temporairement en attente de mise à jour post-update
 
-Ces mods restent dans la référence officielle, mais ils ne doivent pas être chargés dans le `modlist.txt` actif tant qu'ils n'ont pas été corrigés et retestés :
+Ce mod reste dans la référence officielle, mais il ne doit pas être chargé dans le `modlist.txt` actif tant qu'il n'a pas été corrigé et retesté :
 
 | Mod | Fichier .pak | Raison |
 |---|---|---|
-| Tanny's WDV Tattoos und Narben - Enhanced | `WdV_Tattoo_und_Narben.pak` | Crash avant menu après update. |
-| LegitReligious | `LegitReligious_Enhanced.pak` | Crash avant menu après update. |
+| LegitReligious | `LegitReligious_Enhanced.pak` | Pas encore mis à jour. Ancien crash avant menu après update. |
 
 ## Mods rejetés / retirés / remplacés / différés
 
@@ -88,6 +93,8 @@ Ces mods restent dans la référence officielle, mais ils ne doivent pas être c
 | The Compendium of Crawling Chaos Enhanced Edition | Rejeté / différé | Freeze complet du PC lors du test isolé. Retrait confirmé, stabilité retrouvée. |
 | Chem's Pinnacle Levelling | Écarté / remplacé | Navi's Revived Leveling Enhanced répondait mieux au besoin de progression configurable à ce moment-là. |
 | Navi's Revived Leveling Enhanced | Remplacé / retiré | Cassé après mise à jour Conan Enhanced ; remplacé par Level 120 Progression Mod. |
+| Aquilonian Females Enhanced | Remplacé / retiré | Remplacé par Grims Wonderbody Reupload Enhanced. |
+| LetMeCrawl | Testé mais non retenu | Fonctionne correctement, mais ne correspond pas au feeling souhaité pour le modpack. |
 | [Enhanced] More T4 Thralls Plus - v1.0.0 | Rejeté | Crash Unreal / UE-ConanSandbox à l'arrivée ingame. Test de contrôle sans le mod : retour à la stabilité. |
 | Katis_Tattoos | Rejeté / différé | Dépendance Tot Custom non retenue pour l'objectif coop. |
 | Face It Enhanced | Rejeté / différé | Dépendance Tot Sudo non retenue pour conserver une base coop propre. |
@@ -95,21 +102,29 @@ Ces mods restent dans la référence officielle, mais ils ne doivent pas être c
 
 ## Notes importantes
 
-### Primal Instincts Enhanced
+### Série de tests ingame récente
 
-**Primal Instincts Enhanced** est réintégré après mise à jour et validé.
+Fabien a modifié le modpack, ajouté et supprimé plusieurs mods, puis les a testés ingame un par un et tous ensemble.
 
-Test post-update :
+Résultat : le modpack fonctionne nickel avec la base active actuelle.
 
-- menu actif ;
-- scènes fonctionnelles ;
-- ancien crash `W_SpectatorCleanScreen` non reproduit.
+### Grims Wonderbody Reupload Enhanced
 
-### SH - Decorations / SH - Building Kit
+**Grims Wonderbody Reupload Enhanced** remplace **Aquilonian Females Enhanced** comme mod d'apparence / body féminin.
 
-**SH - Decorations v1.0.1 (Enhanced)** est réintégré après mise à jour et validé.
+### Adonia Salon
 
-**SH - Building Kit (1.0.2)** est ajouté et validé. Il est placé juste après **Level 120 Progression Mod** et avant les gros mods de building Asghaard.
+**Adonia Salon** est ajouté comme mod d'apparence / coiffures.
+
+### Exile Architect: Enhanced
+
+**Exile Architect: Enhanced** est ajouté comme mod de construction léger.
+
+Son fichier `.pak` réel est `RopeLines.pak`.
+
+### LegitReligious
+
+**LegitReligious** reste en stand-by, mais son absence ne bloque pas le modpack pour jouer.
 
 ### Level 120 Progression Mod
 
@@ -123,10 +138,6 @@ Comportement validé :
 
 Ce comportement est accepté pour le modpack.
 
-### Al-Merayah Reborn
-
-**Al-Merayah Reborn by Xevyr** est validé et placé avant **The Purge mod by Xevyr**.
-
 ### Compatibilité coop
 
 Les tests de Fabien sont effectués directement en **mode Coop / host local**, ce qui est plus représentatif de l'utilisation réelle prévue pour le modpack.
@@ -139,4 +150,4 @@ Méthode de vérification retenue : abonnement Workshop, présence du `.pak`, ac
 
 ## Statut
 
-Document mis à jour avec les **43 mods listés dans la référence complète**, dont **41 actuellement chargeables** et **2 en attente de mise à jour post-update**.
+Document mis à jour avec les **45 mods listés dans la référence complète**, dont **44 actuellement chargeables** et **1 en attente de mise à jour post-update**.
