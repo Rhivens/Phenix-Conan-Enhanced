@@ -78,8 +78,8 @@ Le modpack intègre progressivement :
 - host local solo validé ;
 - tests effectués directement en Coop / host local pour la construction de la modlist ;
 - orientation NSFW validée ;
-- référence complète actuelle : **47 mods listés** ;
-- état actuel : **47 mods chargeables**, aucun mod en attente de mise à jour.
+- référence consolidée actuelle : **59 mods listés** ;
+- état actuel : **59 mods chargeables**, aucun mod en attente de mise à jour.
 
 ## Suivre l'avancement du projet
 
@@ -91,7 +91,7 @@ C'est le meilleur point d'entrée pour suivre l'évolution du modpack : dernièr
 
 - **[Collection Steam Workshop officielle](https://steamcommunity.com/sharedfiles/filedetails/?id=3726259113)**
 - **[Guide d'installation joueurs](docs/11_installation_joueurs.md)**
-- **[Modlist de référence et load order](docs/12_modlist_reference.md)**
+- **[Modlist de référence consolidée et load order 59 mods](docs/12_modlist_reference_consolidated_59.md)**
 - **[État post-update Conan Enhanced](docs/14_etat_post_update_conan_enhanced.md)**
 - **[Mods NSFW](docs/13_mods_nsfw.md)**
 - **[Résumé de l'état actuel](docs/00_resume_etat_actuel.md)**
